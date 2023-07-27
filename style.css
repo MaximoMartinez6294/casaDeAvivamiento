@@ -25,8 +25,8 @@ header {
 }
 
 .logo {
-    width: 150px;
-    margin-top: -50px;
+    width: 250px;
+    margin-top: -30px;
 }
 
 header .nav {
@@ -35,11 +35,11 @@ header .nav {
 
 header .nav .nav-items a{
     color: #fff;
-    font-size: 1rem;
+    font-size: 15px;
     font-family: "Inter";
     font-weight: 300;
     text-decoration: none;
-    margin-left: 30px;
+    margin-left: 10px;
     top: -20px;
     border-radius: 10px;
     transition: 0.5s ease-in;
@@ -83,7 +83,7 @@ section {
 }
 .home .content h1 {
     font-family: "Inter";
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     letter-spacing: 3px;
     margin-bottom: 40px;
@@ -100,7 +100,7 @@ section {
 
 .home .media-icons a {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     transition: 0.3s ease;
 }
 .home .media-icons a:not(:last-child){
