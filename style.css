@@ -7,6 +7,9 @@
     overflow-x: hidden;
 }
 
+body::-webkit-scrollbar {
+    width: 0px;
+}
 body{
     font-family: "Poppins", sans-serif, "Dm Sans", "Inter";
 }
@@ -232,8 +235,8 @@ section {
 }
 .derecha {
     align-items:flex-end;
-    width: 585px;
-    margin-left: 1050px;
+    width: 580px;
+    margin-left: 600px;
 }
 
 .derecha h1 {
@@ -258,17 +261,17 @@ section {
     display: flex;
     width: 100%;
     padding: 0;
-    margin: 0;
+    margin-top: -60px;
     box-sizing: border-box;
 
 }
 
 .componente1 {
-    padding: 6vw 20vw 6vw 8vw;
+    padding: 6vw 20vw 5vw 9vw;
+    margin-top: 40px;
     background-image: url(/img/tile_prayer-homepage.jpg);
     width: 100%;
     height: 650px;
-
     display: flex;
     align-items: center;
     flex: 1;
@@ -283,6 +286,7 @@ section {
 
 .componente2 {
     padding: 6vw 20vw 6vw 8vw;
+    margin-top: 40px;
     background-image: url(/img/f63c6156-484c-406a-ac1a-788c77a9757a.jpg);
     width: 100%;
     height: 650px;
@@ -300,6 +304,7 @@ section {
 
 .componente3 {
     padding: 6vw 20vw 6vw 8vw;
+    margin-top: 40px;
     background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
     width: 100%;
     height: 650px;
