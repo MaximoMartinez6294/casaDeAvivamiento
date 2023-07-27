@@ -561,7 +561,7 @@ footer {
 .wrapper2 .footer-widget h6 {
     color: #fff;
     margin: 60px 0 35px;
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Inter";
     font-weight: 600;
 }
@@ -573,7 +573,7 @@ footer {
 
 .wrapper2 .footer-widget .links li a{
     color:#fff;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: capitalize;
     line-height: 30px;
@@ -586,7 +586,7 @@ footer {
 
 .wrapper2 .footer-widget .links2 li {
     color:#fff;
-    font-size: 20px;
+    font-size: 15px;
     text-decoration: none;
     text-transform: capitalize;
     line-height: 30px;
@@ -594,7 +594,7 @@ footer {
 }
 .wrapper2 .footer-widget .links2 li i {
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 15px;
     
 }
 
@@ -615,7 +615,7 @@ footer {
 
 .copyright-wrapper p {
     color: #e5e5e5;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 200;
     text-align: center;
     font-family: "Inter";
