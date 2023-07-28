@@ -685,6 +685,13 @@ footer {
 
 
 @media (max-width: 414px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    } 
     header {
         padding: 12px 12px 20px;
         overflow-x: hidden;
