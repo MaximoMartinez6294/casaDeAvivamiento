@@ -936,7 +936,7 @@ footer {
      font-size: 40px;
      width: 100rem;
      position: absolute;
-     margin-left: 50px;
+     margin-left: 45px;
      margin-top: -130px;
      
     }
@@ -950,15 +950,15 @@ footer {
         margin-top: 90px;
         position: absolute;
         font-family: "Inter";
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
-        font-weight: 300;
+        font-weight: 400;
     
     }
     
     .componente2 .dedicacion {
         color: #fff;
-        font-size: 45px;
+        font-size: 40px;
         margin-top: -150px;
         margin-left: 10px;
         width: 100rem;
@@ -967,7 +967,7 @@ footer {
     
     .componente2 .niños {
         color: #fff;
-        font-size: 45px;
+        font-size: 40px;
         margin-top: -50px;
         width: 100rem;
         margin-left: 60px;
