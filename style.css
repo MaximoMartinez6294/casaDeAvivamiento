@@ -850,19 +850,20 @@ footer {
     
     .derecha h1 {
         font-family: "Inter";
-        font-size: 4rem;
+        font-size: 45px;
+        margin-left: 0px;
         font-weight: 900;
         letter-spacing: 3px;
         color: #fff;
         position: relative;
-        
+        text-align: center;
     }
     
     .derecha p {
      color: #fff;
      margin-top: 30px;
      font-family: "Inter";
-     font-size: 25px;
+     font-size: 20px;
      text-align: center;
      font-weight: 400;
     }
@@ -932,10 +933,10 @@ footer {
     
     .componente1 h3 {
      color: #fff;
-     font-size: 50px;
+     font-size: 40px;
      width: 100rem;
      position: absolute;
-     margin-left: 10px;
+     margin-left: 50px;
      margin-top: -130px;
      
     }
@@ -957,38 +958,38 @@ footer {
     
     .componente2 .dedicacion {
         color: #fff;
-        font-size: 50px;
+        font-size: 45px;
         margin-top: -150px;
-        margin-left: -20px;
+        margin-left: 10px;
         width: 100rem;
         position: absolute;
     }
     
     .componente2 .niños {
         color: #fff;
-        font-size: 50px;
+        font-size: 45px;
         margin-top: -50px;
         width: 100rem;
-        margin-left: 50px;
+        margin-left: 60px;
         position: absolute;
     }
        
     .componente2 p {
         color: #fff;
-        width: 400px;
+        width: 300px;
         display: flex;
-        margin-left: -30px;
+        margin-left: 20px;
         margin-top: 200px;
         position: absolute;
         font-family: "Inter";
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
-        font-weight: 300;;   
+        font-weight: 400;;   
     }
     
     .componente3 h3 {
         color: #fff;
-        font-size: 50px;
+        font-size: 45px;
         margin-top: -200px;
         margin-left: 70px;
         width: 100rem;
@@ -997,13 +998,13 @@ footer {
        
     .componente3 p {
         color: #fff;
-        width: 400px;
+        width: 300px;
         display: flex;
-        margin-left: -25px;
+        margin-left: 20px;
         margin-top: 150px;
         position: absolute;
         font-family: "Inter";
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
         font-weight: 300;;     
     }
