@@ -664,8 +664,8 @@ footer {
     }
 
     .wrapper2 .footer-widget .logo {
-        margin-bottom: 30px;
-        margin-left: -10px;
+        margin-bottom: -11px;
+        margin-left: -14px;
         vertical-align: middle;
     }
     .wrapper2 .footer-widget:nth-child(1) {
@@ -835,7 +835,7 @@ footer {
         font-weight: 900;
         color: #403F3F;
         text-align: center;
-        padding-left: 20px;
+        padding-left: 1px;
     }
 
     #bautismos {
@@ -871,29 +871,9 @@ footer {
     }
 
     .button {
-        display: inline-block;
-        outline: none;
-        font-family: "Inter";
-        text-decoration: none;
-        cursor: pointer;
         margin-top: 30px;
         margin-left: 200px;
-        border: 3.5px solid #ebebeb;
-        text-align: left;
-        vertical-align: top;
-        padding: calc(.875rem - 4px) 63px calc(.725rem - 3px) 50px;
-        background-color: #00000000;
-        font-size: 25px;
-        letter-spacing: 3px;
-        min-height: 48px;
-        line-height: 1.29;
-        color: #ffffff;
-        font-weight: 500;
-        transition: background 70ms cubic-bezier(0,0,.38,.9),box-shadow 70ms cubic-bezier(0,0,.38,.9),border-color 70ms cubic-bezier(0,0,.38,.9),outline 70ms cubic-bezier(0,0,.38,.9);
-        transition: all 0.5s ease-out;
-    
-     
-    
+
     }
     
     #conteiner {
@@ -973,9 +953,9 @@ footer {
         color: #fff;
         width: 350px;
         display: flex;
-        margin-left: 5px;
+        margin-left: -5px;
         margin-right: -10px;
-        margin-top: 90px;
+        margin-top: 100px;
         position: relative;
         font-family: "Inter";
         font-size: 20px;
