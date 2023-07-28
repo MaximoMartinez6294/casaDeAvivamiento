@@ -790,8 +790,8 @@ footer {
     }
 
     .carta {
-        width: 350px;
-        height: 484px;
+        width: 331px;
+        height: 274px;
         padding: 2rem 1rem;
         background: #fff;
         position: relative;
@@ -812,7 +812,7 @@ footer {
         transform: translateY(30px);
         transition: 0.5s all;
         cursor: pointer;
-        padding-left: 3px;
+        margin-left: -6px;
     }
 
     .carta img{
