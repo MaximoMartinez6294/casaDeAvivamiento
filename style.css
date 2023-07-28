@@ -687,10 +687,12 @@ footer {
 @media (max-width: 414px) {
     header {
         padding: 12px 12px 20px;
+        overflow-x: hidden;
     }
 
     section {
         padding: 100px 20px;
+        overflow-x: hidden;
     }
 
     .home { 
