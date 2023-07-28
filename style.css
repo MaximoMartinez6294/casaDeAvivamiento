@@ -872,16 +872,9 @@ footer {
     }
 
     .button {
-        margin-top: 30px;
-        padding-left: -20px;
         text-align: center;
         vertical-align: top;
         padding: calc(.825rem - 2px) 23px calc(.725rem - 3px) 20px;
-        background-color: #00000000;
-        font-size: 25px;
-        letter-spacing: 3px;
-        min-height: 48px;
-        line-height: 1.29;
 
     }
     
@@ -1027,7 +1020,7 @@ footer {
     
     .button{
         margin-top: 30px;
-        margin-left: 55px;
+        margin-left: 86px;
     }
 
     .copyright-wrapper p {
