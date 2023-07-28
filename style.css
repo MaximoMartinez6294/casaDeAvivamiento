@@ -707,7 +707,7 @@ footer {
     }
 
     .home img {
-        overflow-x: hidden;
+        overflow-x: hidden; !important
         overflow-y: hidden;
     }
     
