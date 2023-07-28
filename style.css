@@ -697,6 +697,11 @@ footer {
         overflow-x: hidden;
     }
 
+    .home img {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    
     .home .content h1 {
         font-size: 50px;
         width: 100%;
