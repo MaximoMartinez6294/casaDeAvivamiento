@@ -710,7 +710,9 @@ footer {
         overflow: hidden ;
         overflow-y: hidden;
     }
-    
+    .home .content {
+        overflow: hidden !important; 
+    }
     .home .content h1 {
         font-size: 50px;
         width: 100%;
