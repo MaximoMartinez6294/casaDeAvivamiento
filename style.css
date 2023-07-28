@@ -869,6 +869,32 @@ footer {
      text-align: center;
      font-weight: 400;
     }
+
+    .button {
+        display: inline-block;
+        outline: none;
+        font-family: "Inter";
+        text-decoration: none;
+        cursor: pointer;
+        margin-top: 30px;
+        margin-left: 200px;
+        border: 3.5px solid #ebebeb;
+        text-align: left;
+        vertical-align: top;
+        padding: calc(.875rem - 4px) 63px calc(.725rem - 3px) 50px;
+        background-color: #00000000;
+        font-size: 25px;
+        letter-spacing: 3px;
+        min-height: 48px;
+        line-height: 1.29;
+        color: #ffffff;
+        font-weight: 500;
+        transition: background 70ms cubic-bezier(0,0,.38,.9),box-shadow 70ms cubic-bezier(0,0,.38,.9),border-color 70ms cubic-bezier(0,0,.38,.9),outline 70ms cubic-bezier(0,0,.38,.9);
+        transition: all 0.5s ease-out;
+    
+     
+    
+    }
     
     #conteiner {
         display: grid;
