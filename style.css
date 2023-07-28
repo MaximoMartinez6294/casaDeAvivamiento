@@ -944,7 +944,7 @@ footer {
      font-size: 40px;
      width: 100rem;
      position: absolute;
-     margin-left: 45px;
+     margin-left: 35px;
      margin-top: -130px;
      
     }
@@ -954,7 +954,7 @@ footer {
         width: 300px;
         display: flex;
         margin-left: 16px;
-        margin-top: 70px;
+        margin-top: 50px;
         position: relative;
         font-family: "Inter";
         font-size: 20px;
