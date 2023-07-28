@@ -933,10 +933,10 @@ footer {
     
     .componente1 p {
         color: #fff;
-        width: 380px;
+        width: 350px;
         display: flex;
-        margin-left: -20px;
-        margin-right: 40px;
+        margin-left: 5px;
+        margin-right: -20px;
         margin-top: 90px;
         position: absolute;
         font-family: "Inter";
@@ -1003,4 +1003,36 @@ footer {
         margin-top: 30px;
         margin-left: 55px;
     }
+
+    .copyright-wrapper p {
+        color: #e5e5e5;
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        font-family: "Inter";
+    }
+    
+    .wrapper2 .footer-widget .links li a{
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+  }
+
+.wrapper2 .footer-widget .links li a:hover{
+    color: #df0115;
+}
+
+.wrapper2 .footer-widget .links2 li {
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    line-height: 30px;
+    transition: all 0.3s ease-out;
+}
+
+    
 }
