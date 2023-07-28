@@ -651,7 +651,7 @@ footer {
 }
 .button:hover {
   
- background-color: #0353e9;
+ background-color: #85C1E9;
  color: #fff;
     
 }
@@ -873,7 +873,7 @@ footer {
 
     .button {
         margin-top: 30px;
-        margin-left: 200px;
+        padding-left: -20px;
 
     }
     
