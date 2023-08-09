@@ -258,7 +258,7 @@ letter-spacing: -1.5px;
 }
 
 .about-text p {
-    color: var(--neutral-700, #444);
+    color: #222;
 font-feature-settings: 'liga' off;
 font-family: Inter;
 font-size: 22px;
