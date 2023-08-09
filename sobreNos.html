@@ -39,8 +39,8 @@
 
 <div class="about-container">
     <div class="about-text"> 
-        <p class="I"> IGLESIA CASA DE AVIVAMIENTO</p>
-        <img class="linea" src="img/Horizontal-Line-PNG-Pic (1).png" alt=""> 
+        <p class="Iglesia"> IGLESIA CASA DE AVIVAMIENTO</p>
+        <img  class="linea" src="img/Horizontal-Line-PNG-Pic (1).png" alt=""> 
      
         <h3>BIENVENIDO</h3>
         <p>Iglesia casa de avivamiento comenzó en (AÑO) y desde entonces hemos ido creciendo cada vez más hasta convertirse en la familia que somos hoy. </p>
@@ -48,7 +48,9 @@
     </div>
 
     <div class="about-img">
-        <img src="img/foto3.png" alt="">
+        <img sizes="(max-width: 320px) 280px,
+        (max-width: 435px) 440px,
+        800px" src="img/foto3.png" alt="">
     </div>
 </div>
 
@@ -86,6 +88,9 @@
         </p>
 
 
+    </div>
+    <div class="mision-img2">
+        <img src="img/Mision1.png" alt="">
     </div>
 
 </div>
@@ -154,3 +159,17 @@
         </div>
     </div>    
  </footer>
+ <script type="text/javascript"> 
+
+    const menuBtn = document.querySelector(".menu-btn");
+    const nav = document.querySelector(".about-nav");
+    
+    menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active")
+        nav.classList.toggle("active")
+    });
+    
+    
+    </script>
+</body> 
+</html>
