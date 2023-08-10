@@ -1662,11 +1662,10 @@ flex-shrink: 0;
     font-family: "Inter";
     overflow: hidden;
 
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 900;
-
     letter-spacing: 3px;
-    margin-bottom: 51px;
+    margin-bottom: 111px;
   }
 
   .about-home .content {
