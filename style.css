@@ -1661,8 +1661,10 @@ flex-shrink: 0;
     .about-home .content h1 {
     font-family: "Inter";
     overflow: hidden;
-    font-size: 3.3rem;
-    font-weight: 900;
+
+    font-size: 45px;
+    font-weight: 800;
+
     letter-spacing: 3px;
     margin-bottom: 40px;
   }
