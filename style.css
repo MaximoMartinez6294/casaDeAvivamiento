@@ -12,6 +12,7 @@ body::-webkit-scrollbar {
 }
 body{
     font-family: "Poppins", sans-serif, "Dm Sans", "Inter";
+    
 }
 
 header {
@@ -106,6 +107,299 @@ section {
     justify-content: center;
     flex-direction: column;
 }
+
+/* Contact */
+.contact-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 300px;
+    
+}
+
+.contact-home .content h1 {
+    font-family: Inter;
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 94px;
+}
+/*Contact form */
+
+
+
+.content {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+    color: #222;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span {
+    color: #B70E21;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #faf8f8;
+}
+
+.contact-form h3 {
+font-family: Inter;
+font-size: 28px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+
+.contact-form h1 {
+    color: #1B1B1B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form label {
+    display: block;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #1B1B1B;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #EB7367;;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    color: #FFF;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    cursor: pointer;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+/* CONTACT INFO */
+.contact-info {
+    background: #EB7367;
+}
+
+.contact-info h4, .contact-info ul, .contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.contact-info h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+
+.contact-info h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.24px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+i.fa-brands.fa-facebook {
+    padding-right: 5px;
+}
+
+i.fa-brands.fa-instagram{
+    padding-right: 5px;
+}
+
+
+
+/* LARGE SIZE */
+@media(min-width: 700px) {
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > * {
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        text-align: center;
+        font-family: Inter;
+    }
+}
+
+/* Clases */ 
+
+.clases-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clases-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clases-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.clases-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 150px;
+}
+
+/* Casas de vida */ 
+
+.casaDeVida-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.casaDeVida-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.casaDeVida-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.casaDeVida-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+
+/* About */
 
 .about-home {
     position: relative;
@@ -1294,12 +1588,12 @@ footer {
     text-transform: capitalize;
     line-height: 30px;
     transition: all 0.3s ease-out;
-}
+    }
 
-header .about-nav {
+    header .about-nav {
     display: none;
-}
-header .about-nav.active {
+    }
+    header .about-nav.active {
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -1309,17 +1603,17 @@ header .about-nav.active {
     justify-content: center;
     align-items: center;
     background: rgb(1, 1, 1, 0.5);
-}
-header .about-nav .nav-items a {
-    color: #222;
-    font-size: 1.2em;
-    margin: 20px;
-}
+    }
+    header .about-nav .nav-items a {
+     color: #222;
+     font-size: 1.2em;
+     margin: 20px;
+    }
 
-header .about-nav .nav-items a:before {
-    background: #222;
-    height: 3px;
-}
+    header .about-nav .nav-items a:before {
+        background: #222;
+        height: 3px;
+    }
 
 header .about-nav.about-nav.active .nav-items {
     background: #fff;
@@ -1334,6 +1628,77 @@ header .about-nav.about-nav.active .nav-items {
     box-shadow: 0 5px 25px rgb(1, 1, 1 / 20%);
 }
 
+/* Clases */ 
+.clases-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clases-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.clases-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.clases-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+/* Casas de vida */ 
+
+/* Contact*/
+.contact-home {
+    overflow: hidden;
+ }
+
+.contact-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -3px;
+}
+
+contact-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 3.5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+/* About*/
 .about-home {
     overflow: hidden;
 }
@@ -1613,6 +1978,7 @@ flex-shrink: 0;
         width: 200px;
     }
 }
+/*435PX */
 
 
 @media (max-width: 435px){
@@ -1654,6 +2020,91 @@ flex-shrink: 0;
         box-shadow: 0 5px 25px rgb(1, 1, 1 / 20%);
     }
 
+    /* CLASES */
+
+    .clases-home {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .clases-home img {
+        z-index: 000;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 121px;
+    }
+    
+    .clases-home .content {
+        z-index: 888;
+        overflow: hidden;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: -3px
+    }
+    
+    .clases-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 3.5rem;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+
+/* contact*/
+    .contact-home {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+    
+    .contact-home img {
+        z-index: 000;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 121px;
+    }
+    
+    .contact-home .content {
+        z-index: 888;
+        overflow: hidden;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: -3px;
+    }
+    
+    .contact-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 3.5rem;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+    }
+    
+    /* about*/
+
     .about-home {
         overflow: hidden;
     }
@@ -1687,6 +2138,7 @@ flex-shrink: 0;
     justify-content: center;
     flex-direction: column;
 }
+
 
 .about-home img {
     z-index: 000;
