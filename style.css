@@ -230,11 +230,11 @@ text-align: center;
     background: none;
     outline: 0;
     color: #1B1B1B;
-    border-bottom: 1px solid #d63031;
+    border-bottom: 1px solid #222222;
 }
 
 .contact-form form button {
-    background: #EB7367;;
+    background: #222222;;
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -250,7 +250,7 @@ line-height: normal;
 
 .contact-form form button:hover,
 .contact-form form button:focus {
-    background: #d63031;
+    background: #252020;
     color: #fff;
     transition: background-color 1s ease-out;
     outline: 0;
@@ -258,7 +258,7 @@ line-height: normal;
 
 /* CONTACT INFO */
 .contact-info {
-    background: #EB7367;
+    background: #222222
 }
 
 .contact-info h4, .contact-info ul, .contact-info p {
@@ -1190,7 +1190,7 @@ footer {
 }
 .button:hover {
   
- background-color: #85C1E9;
+ background-color: #037dce;
  color: #fff;
     
 }
