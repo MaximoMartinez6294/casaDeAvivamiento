@@ -366,18 +366,19 @@ i.fa-brands.fa-instagram{
 }
 
 .clases-container {
-font-family: "Inter";
-overflow: hidden;
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(300px, auto));
-gap: 1rem;
-margin-top: 2rem;
+ font-family: "Inter";
+ overflow: hidden;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+ gap: 1rem;
+ margin-top: 2rem;
 }
 
 .heading {
     font-family: "Inter";
     font-weight: 600;
     font-size: 40px;
+    color: #403F3F;
     justify-content: center;
     padding-left: 400px;
 }
@@ -460,6 +461,119 @@ margin-top: 2rem;
     margin-bottom: 40px;
 }
 
+.casa-container {
+    display: flex;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.casa-container .casa-img {
+    width: 120%;
+    
+}
+.casa-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.casa-text {
+    padding-left: 0px;
+    width: 1300px;
+}
+
+.casa-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.casa-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.casa-img2 {
+ display: none;
+}
+
+
+.casa2-container {
+    display: flex;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+.casa2-container .casa2-img {
+    width: 120%;
+    
+}
+.casa2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 29px;
+}
+
+.casa2-text {
+    padding-left: 0px;
+    padding-top: 20px;
+    width: 996px;
+}
+
+.casa2-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.casa2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.casa2-img2 {
+ display: none;
+}
+
+.casa-conteiner2{
+    background: url(/img/imgCasaDeVidaCont.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1690px;
+    height: 550px;
+}
+
+.casa-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+}
+
 
 /* About */
 
@@ -536,8 +650,6 @@ letter-spacing: 1.4px;
 
 .about-container .about-text {
     width: 50%;
-
-    
 }
 
 .mision-conteiner {
@@ -1804,10 +1916,6 @@ height: 100%;
 object-fit: cover;
 }
 
-
-
-
-
 .about-container {
 display: grid;
 padding: 7vw 5vw 10vw 10vw;
@@ -2091,6 +2199,7 @@ flex-shrink: 0;
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 .casaDeVida-home img {
@@ -2101,7 +2210,7 @@ flex-shrink: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    margin-bottom: 121px;
+    margin-bottom: 33px;
 }
 
 .casaDeVida-home .content {
@@ -2122,6 +2231,12 @@ flex-shrink: 0;
     letter-spacing: 3px;
     margin-bottom: 40px;
     padding-left: 20px;
+}
+
+ .casa-conteiner2 .imagen-c { 
+   padding-left: 0px;
+    width: 398px;
+    padding-top: 88px;
 }
 
     /* CLASES */
@@ -2166,6 +2281,17 @@ flex-shrink: 0;
         padding-left: 20px;
     }
 
+    .heading {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 40px;
+        justify-content: center;
+        margin-top: -109px;
+        padding-left: 90px;
+    }
+
+    
+
 /* contact*/
     .contact-home {
         position: relative;
@@ -2206,6 +2332,112 @@ flex-shrink: 0;
         margin-bottom: 40px;
         padding-left: 20px;
     }
+ /*Casa de vida */
+    .casa-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .casa-container .casa-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .casa-img {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 450px;
+        margin-left: -15px;
+    }
+    
+    .casa-text {
+        padding-left: 0px;
+        width: 355px;
+    }
+    
+    .casa-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px; /* 154.286% */
+    letter-spacing: -1.5px;
+    }
+    
+    .casa-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 128% *//
+    }
+    
+    .casa-img2 {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: -7px;
+    }
+    
+    
+    .casa2-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .casa2-container .casa2-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .casa2-img {
+      display: none;
+    }
+    
+    .casa2-text {
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 355px;
+    }
+    
+    .casa2-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px; /* 154.286% */
+    letter-spacing: -1.5px;
+    }
+    
+    .casa2-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 128% *//
+    }
+    
+    .casa2-img2 {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: -7px;
+    }
+    
     
     /* about*/
 
@@ -2217,7 +2449,7 @@ flex-shrink: 0;
     font-family: "Inter";
     overflow: hidden;
 
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 900;
     letter-spacing: 3px;
     margin-bottom: 154px;
@@ -2253,9 +2485,6 @@ flex-shrink: 0;
     height: 100%;
     object-fit: cover;
 }
-
-
-
 
 
 .about-container {
@@ -2310,7 +2539,6 @@ letter-spacing: 1.4px;
 
 .about-container .about-text {
     width: 100%;
-
 }
 
 .mision-conteiner {
