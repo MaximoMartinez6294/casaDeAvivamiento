@@ -2667,7 +2667,7 @@ flex-shrink: 0;
 
 /*371PX */
 
-@media (max-width: 371px){
+@media (max-width: 376px){
     header .about-nav {
         display: none;
     }
