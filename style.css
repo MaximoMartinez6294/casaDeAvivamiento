@@ -2783,7 +2783,7 @@ flex-shrink: 0;
         color: #fff;
         width: 100%;
         text-align: center;
-        margin-top: 80px;
+        margin-top: -29px;
         margin-left: -3px
     }
     
@@ -2803,7 +2803,7 @@ flex-shrink: 0;
         font-size: 40px;
         justify-content: center;
         margin-top: -109px;
-        padding-left: 90px;
+        padding-left: 72px;
     }
 
     
@@ -2842,11 +2842,11 @@ flex-shrink: 0;
     .contact-home .content h1 {
         font-family: "Inter";
         overflow: hidden;
-        font-size: 3.5rem;
+        font-size: 35px;
         font-weight: 900;
         letter-spacing: 3px;
         margin-bottom: 40px;
-        padding-left: 20px;
+        padding-left: 1px;
     }
  /*Casa de vida */
     .casa-container {
