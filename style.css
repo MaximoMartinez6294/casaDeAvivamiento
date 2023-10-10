@@ -3042,7 +3042,7 @@ flex-shrink: 0;
         width: 100%;
         justify-content: space-around;
         align-items: center;
-
+        display: grid;
         padding-top: 20px;
         
     }
@@ -3064,7 +3064,7 @@ flex-shrink: 0;
         z-index: 2;
         padding-bottom: -40px;
         color: #fff;
-        font-size: 9px;
+        font-size: 16px;
         opacity: 1;
         width: 100%;
         transform: translateY(30px);
