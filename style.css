@@ -2985,7 +2985,7 @@ flex-shrink: 0;
         overflow: hidden !important; 
     }
     .home .content h1 {
-        font-size: 60px;
+        font-size: 40px;
         width: 100%;
     }
     
@@ -3064,7 +3064,7 @@ flex-shrink: 0;
         z-index: 2;
         padding-bottom: -40px;
         color: #fff;
-        font-size: 13px;
+            font-size: 9px;
         opacity: 1;
         width: 100%;
         transform: translateY(30px);
