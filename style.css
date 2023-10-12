@@ -133,7 +133,8 @@ section {
     color: #fff;
     width: 100%;
     margin-top: 80px;
-    margin-left: 300px;
+    overflow-y: hidden;
+    margin-left: 250px;
     
 }
 
@@ -349,7 +350,8 @@ i.fa-brands.fa-instagram{
     color: #fff;
     width: 100%;
     margin-top: 80px;
-    margin-left: 300px;
+    overflow-y: hidden;
+    padding-left: 320px;
 }
 
 .clases {
@@ -450,7 +452,8 @@ i.fa-brands.fa-instagram{
     color: #fff;
     width: 100%;
     margin-top: 80px;
-    margin-left: 300px;
+    overflow-y: hidden;
+    margin-left: 240px;
 }
 
 .casaDeVida-home .content h1 {
@@ -603,7 +606,8 @@ letter-spacing: -1.5px;
     color: #fff;
     width: 100%;
     margin-top: 80px;
-    margin-left: 300px;
+    overflow-y: hidden;
+    margin-left: 163px;
 }
 
 .about-home .content h1 {
@@ -1346,7 +1350,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
     margin-top: 30px;
-    margin-left: 287px;
+    margin-left: 180px;
     border: 3.5px solid #ebebeb;
     text-align: left;
     vertical-align: top;
