@@ -1121,7 +1121,7 @@ flex-shrink: 0;
 
 .componente1::before {
     content: "";
-    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.288), rgb(212, 67, 62));
+    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.075), rgba(212, 67, 62, 0.308));
     opacity: 0;
     position: absolute;
     top: 0;
@@ -1145,7 +1145,7 @@ flex-shrink: 0;
 
 .componente2::before {
     content: "";
-    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.288), rgb(212, 67, 62));
+    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.075), rgba(212, 67, 62, 0.308));
     opacity: 0;
     position: absolute;
     top: 0;
@@ -1170,7 +1170,7 @@ flex-shrink: 0;
 
 .componente3::before {
     content: "";
-    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.288), rgb(212, 67, 62));
+    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.075), rgba(212, 67, 62, 0.308));
     opacity: 0;
     position: absolute;
     top: 0;
@@ -1344,7 +1344,7 @@ footer {
     text-decoration: none;
     cursor: pointer;
     margin-top: 30px;
-    margin-left: 281px;
+    margin-left: 180px;
     border: 3.5px solid #ebebeb;
     text-align: left;
     vertical-align: top;
