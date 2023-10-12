@@ -478,8 +478,8 @@ i.fa-brands.fa-instagram{
 }
 
 .casa-text {
-    padding-left: 0px;
-    width: 1300px;
+    padding-left: 40px;
+    width: 1417px;
 }
 
 .casa-text h3 {
@@ -500,7 +500,8 @@ letter-spacing: -1.5px;
     color: var(--text-gray-900, #18191F);
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 128% *//
@@ -529,8 +530,8 @@ letter-spacing: -1.5px;
 
 .casa2-text {
     padding-left: 0px;
-    padding-top: 20px;
-    width: 996px;
+    padding-top: -30px;
+    width: 1271px;
 }
 
 .casa2-text h3 {
@@ -538,9 +539,9 @@ color: #403F3F;
 font-variant-numeric: lining-nums proportional-nums;
 font-feature-settings: 'liga' off;
 font-family: Inter;
-padding-top: 47px;
-padding-bottom: 10px;
-font-size: 50px;
+padding-top: 6px;
+padding-bottom: 8px;
+font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: 54px; /* 154.286% */
@@ -551,7 +552,8 @@ letter-spacing: -1.5px;
     color: var(--text-gray-900, #18191F);
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 20px;
+    padding-top: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 128% *//
@@ -2711,6 +2713,8 @@ flex-shrink: 0;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
+        padding-bottom: 10px;
+
         line-height: 32px; /* 128% *//
     }
     
@@ -3516,6 +3520,8 @@ flex-shrink: 0;
         font-family: Inter;
         font-size: 25px;
         font-style: normal;
+        padding-bottom: 10px;
+
         font-weight: 400;
         line-height: 32px; /* 128% *//
     }
