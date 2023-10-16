@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
+    
 }
 
 body::-webkit-scrollbar {
@@ -12,8 +12,222 @@ body::-webkit-scrollbar {
 }
 body{
     font-family: "Poppins", sans-serif, "Dm Sans", "Inter";
-    
+    overflow-x: hidden;
 }
+
+
+.menu{
+    background-color: #222;
+    color: #fff;
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-family: "Inter";
+}
+
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 52px;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.menu__links{
+    height: 100%;
+    transition: transform .5s;
+    display: flex;
+}
+
+.menu__links2 {
+    height: 100%;
+    transition: transform .5s;
+    display: flex;
+    width: 880px;
+    margin: 21px 154px 21px 16px;
+}
+
+.menu__links2 {
+    height: 100%;
+transition: transform .5s;
+display: flex;
+width: 880px;
+margin: 21px 154px 21px -126px;
+}
+
+
+.menu__item{
+    list-style: none;
+    position: relative;
+    height: 100%;
+    --clip: polygon(0 0, 100% 0, 100% 0, 0 0);
+    --transform: rotate(-90deg);
+}
+
+.menu__item:hover{
+    --clip: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    --transform: rotate(0);
+}
+
+.menu__link{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 30px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    transition: 0.5s ease-in;
+}
+
+.menu__link:hover{
+    color: #ef3d31;
+}
+
+
+.menu__arrow{
+    transform: var(--transform);
+    transition: transform .3s;
+    display: block;
+    margin-left: 3px;
+}
+
+.menu__nesting{
+    list-style: none;
+    transition:clip-path .3s;
+    clip-path: var(--clip);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: max-content;
+    transform: translateY(100%);
+    background-color: #222;
+}
+
+.menu__link--inside{
+    padding: 30px 100px 30px 20px;
+}
+
+.menu__link--inside:hover{
+    color: #ef3d31;
+}
+
+
+.menu__hamburguer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    cursor: pointer;
+    display: none;
+}
+
+.menu__img{
+    display: block;
+    width: 36px;
+}
+
+.menu-logo {
+    width: 247px;
+    margin-top: -3px;
+}
+@media (max-width:800px){
+    .menu__hamburguer{
+        display: flex;
+        height: 80px;
+    }
+    
+    .menu-logo {
+        width: 249px;
+        margin-top: -8px;
+    }
+
+    .menu__item{
+        --clip:0;
+        overflow:hidden ;
+    }
+
+    .menu__item--active{
+        --transform: rotate(0);
+    }
+
+    .menu__item--show{
+        background-color: var(--background);
+    }
+
+
+    .menu__links{
+        background-color: #222;
+    overflow-y: auto;
+    margin-left: -637px;
+    display: grid;
+    grid-auto-rows: max-content;
+    transform: translateX(100%);
+    }
+    .menu__links2{
+        background-color: #222;
+    overflow-y: auto;
+    display: grid;
+    grid-auto-rows: max-content;
+    transform: translateX(100%);
+    margin: 19px 310px 54px -226px;
+    }
+
+    .menu__links3 {
+        background-color: #222;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin: 9px 108px 13px -137px;
+    }
+
+    .menu__links3--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu__links2--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu__links--show{
+        transform: unset;
+        width: 100%;
+    }
+
+    .menu__link{
+        padding: 25px 0;
+        padding-left: 30px;
+        height: auto;
+    }
+
+    .menu__arrow{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+
+    .menu__nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+        background-color: #222;
+    }
+
+    .menu__link--inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: 1px solid #798499;
+    }
+}
+
 
 header {
     z-index: 999;
@@ -40,6 +254,7 @@ header {
 
 header .nav {
     position: relative;
+    margin-left: 384px;
 }
 
 .about-header {
@@ -351,7 +566,539 @@ i.fa-brands.fa-instagram{
     width: 100%;
     margin-top: 80px;
     overflow-y: hidden;
-    padding-left: 320px;
+    padding-left: 280px;
+}
+
+.clases {
+    overflow: hidden;
+}
+
+.clases-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 150px;
+}
+
+.clases-container {
+ font-family: "Inter";
+ overflow: hidden;
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+ gap: 1rem;
+ margin-top: 2rem;
+}
+
+.heading {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 40px;
+    color: #403F3F;
+    justify-content: center;
+    padding-left: 400px;
+}
+
+.clases-container .box {
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+}
+
+.clases-container .box h1 {
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.clases-container .box .box-img {
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
+
+.clases-container .box .box-img img {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.clases-container .box .btn {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.clases-container .box .btn:hover {
+    background: #2C2C2C;
+}
+/* altares */
+
+.altares-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.altares-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.altares-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    margin-left: 240px;
+}
+
+.altares-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.altares-container {
+    display: flex;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.altares-container .altares-img {
+    width: 100%;
+    padding-left: 80px;
+    
+}
+.altares-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.altares-text {
+    padding-left: 40px;
+    width: 873px;
+}
+
+.altares-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.altares-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.altares-img2 {
+ display: none;
+}
+
+
+.altares2-container {
+    display: flex;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+.altares2-container .casa2-img {
+    width: 120%;
+    
+}
+.altares2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 29px;
+}
+
+.altares2-text {
+    padding-left: 62px;
+    margin-top: 54px;
+    width: 1267px;
+}
+
+.altares2-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 6px;
+padding-bottom: 8px;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.altares2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.altares2-img2 {
+ display: none;
+}
+
+.altares-conteiner2 {
+    overflow:hidden ;
+}
+
+
+.altares-conteiner2 img{
+   width: 100%;
+   border: 0;
+   height: auto !important;
+   margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
+
+
+.altares-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+}
+
+/* Casas de vida */ 
+
+.casaDeVida-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.casaDeVida-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.casaDeVida-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    margin-left: 240px;
+}
+
+.casaDeVida-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.casa-container {
+    display: flex;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.casa-container .casa-img {
+    width: 120%;
+    
+}
+.casa-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.casa-text {
+    padding-left: 40px;
+    width: 1417px;
+}
+
+.casa-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.casa-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.casa-img2 {
+ display: none;
+}
+
+
+.casa2-container {
+    display: flex;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+.casa2-container .casa2-img {
+    width: 120%;
+    
+}
+.casa2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 29px;
+}
+
+.casa2-text {
+    padding-left: 0px;
+    padding-top: -30px;
+    width: 1271px;
+}
+
+.casa2-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 6px;
+padding-bottom: 8px;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.casa2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.casa2-img2 {
+ display: none;
+}
+
+.casa-conteiner2{
+    overflow: hidden;
+}
+
+.casa-conteiner2 img{
+    width: 100%;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
+
+
+/* Bautismos */
+
+.bautismos-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bautismos-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bautismos-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    margin-left: 355px;
+}
+
+.bautismos-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
+.bautismos-container {
+    display: flex;
+    padding: 6vw 5vw 6vw 10vw;
+}
+
+
+.bautismos-text {
+    padding-left: 40px;
+    width: 1417px;
+}
+
+.bautismos-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+margin-top: -54px;
+margin-bottom: 20px;
+}
+
+.bautismos-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+
+
+.bautismos2-container {
+    display: flex;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+
+.bautismos2-text {
+    padding-left: 0px;
+    padding-top: -30px;
+    width: 1271px;
+}
+
+.bautismos2-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 6px;
+padding-bottom: 8px;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.bautismos2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+
+.bautismos-conteiner2 {
+    overflow:hidden ;
+}
+
+
+.bautismos-conteiner2 img{
+   width: 100%;
+   border: 0;
+   height: auto !important;
+   margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+
+}
+
+
+/*clases*/
+
+.clases-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    padding-left: 280px;
 }
 
 .clases {
@@ -566,18 +1313,54 @@ letter-spacing: -1.5px;
  display: none;
 }
 
-.casa-conteiner2{
-    background: url(/img/imgCasaDeVidaCont.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1690px;
-    height: 550px;
+
+.casa-conteiner2 img{
+    width: 100%;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
 }
 
-.casa-conteiner2 .imagen-c {
-    padding-left: 600px;
-    padding-top: 30px;
+/* Altares */
+.altares-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.altares-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.altares-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    margin-left: 410px;
+}
+
+.altares-home .content h1 {
+    font-family: "Inter";
+    font-size: 5rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+}
+
 
 
 /* About */
@@ -607,7 +1390,7 @@ letter-spacing: -1.5px;
     width: 100%;
     margin-top: 80px;
     overflow-y: hidden;
-    margin-left: 310px;
+    margin-left: 195px;
 }
 
 .about-home .content h1 {
@@ -942,7 +1725,7 @@ flex-shrink: 0;
 }
 
 #bautismos {
-    background-image: url(/img/82c2c8f4-0878-4b7a-b07f-740de8555926.jpg);
+    background-image: url(/img/bautismos-fondo.jpg);
     width: 100%;
     height: 500px;
     margin-top: 20px;
@@ -1025,7 +1808,7 @@ flex-shrink: 0;
 .componente3 {
     padding: 6vw 20vw 6vw 8vw;
     margin-top: 40px;
-    background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+    background-image: url(/img/altares.jpg);
     width: 100%;
     height: 500px;
     overflow: hidden;
@@ -1432,7 +2215,7 @@ footer {
         width: 100%;
         height: 100vh;
         top: 0;
-        left: 0;
+        left: -490px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1541,7 +2324,7 @@ footer {
     }
 
     #bautismos {
-        background: url(/img/82c2c8f4-0878-4b7a-b07f-740de8555926.jpg) !important;
+        background: url(/img/bautismos-fondo.jpg) !important;
         width: 100%;
         background-size: cover;
 
@@ -1627,7 +2410,7 @@ footer {
     
     .componente3 {
         padding: 6vw 20vw 6vw 8vw;
-        background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+        background-image: url(/img/altares.jpg);
         width: 100%;
         height: 650px;
         margin-top: 0px;
@@ -1778,7 +2561,7 @@ footer {
     width: 100%;
     height: 100vh;
     top: 0;
-    left: 0;
+    left: -338px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1877,6 +2660,9 @@ contact-home .content h1 {
     letter-spacing: 3px;
     margin-bottom: 40px;
 }
+/* Bautismos*/
+
+
 
 /* About*/
 .about-home {
@@ -2162,6 +2948,14 @@ flex-shrink: 0;
         box-sizing: border-box;
         overflow-x: hidden;
     } 
+
+    .list__button {
+        display: grid;
+        text-align: center;
+        gap: 1em;
+        width: 100%;
+        margin: 0 auto;
+    }
     header {
         padding: 12px 12px 20px;
         overflow-x: hidden;
@@ -2210,7 +3004,7 @@ flex-shrink: 0;
         width: 100%;
         height: 100vh;
         top: 0;
-        left: 0;
+        left: -338px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -2299,7 +3093,7 @@ flex-shrink: 0;
     }
 
     #bautismos {
-        background: url(/img/82c2c8f4-0878-4b7a-b07f-740de8555926.jpg) !important;
+        background: url(/img/bautismos-fondo.jpg) !important;
         width: 100%;
         background-size: cover;
 
@@ -2385,7 +3179,7 @@ flex-shrink: 0;
     
     .componente3 {
         padding: 6vw 20vw 6vw 8vw;
-        background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+        background-image: url(/img/altares.jpg);
         width: 100%;
         height: 400px;
         margin-top: 0px;
@@ -2479,6 +3273,260 @@ flex-shrink: 0;
         font-weight: 300;;     
     }
 
+    /* bautismo */
+
+    .bautismos-home {
+        position: relative;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    
+    .bautismos-home img {
+        z-index: 000;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 33px;
+    }
+    
+    .bautismos-home .content {
+        z-index: 888;
+        overflow: hidden;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin-top: 3px;
+        margin-left: -3px
+    }
+    
+    .bautismos-home .content h1 {
+        font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+    }
+    
+    .bautismos-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+        
+    }
+    
+   
+    
+    .casa-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        
+    
+    }
+    .bautismos-text {
+        padding-left: 0px;
+        width: 355px;
+    }
+    
+    .bautismos-text h3 {
+        color: #403F3F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        padding-top: 79px;
+        padding-bottom: 10px;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 54px; /* 154.286% */
+        letter-spacing: -1.5px;
+    }
+    
+    .bautismos-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+
+    .altares-conteiner2 img {
+        width: 421px;
+        border: 0;
+        height: auto !important;
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: -10px;
+        overflow: hidden;
+    }
+  /* Altares*/
+  
+.altares-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.altares-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+.altares-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.altares-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.altares-container {
+    display: grid;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.altares-container .altares-img {
+    width: 100%;
+    padding-left: 80px;
+    
+}
+.altares-img {
+    display: none;
+}
+
+.altares-text {
+    padding-left: 0px;
+    width: 340px;
+}
+
+.altares-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 1px;
+padding-bottom: 10px;
+padding-left: 58px;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.altares-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.altares-img2 {
+
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: -7px;
+   
+}
+
+
+.altares2-container {
+    display: grid;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+.altares2-container .casa2-img {
+    width: 120%;
+    
+}
+.altares2-img {
+    display: none;
+}
+
+.altares2-text {
+
+    padding-left: 35px;
+    margin-top: 0px;
+    width: 327px;
+
+}
+
+.altares2-text h3 {
+color: #403F3F;
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: Inter;
+padding-top: 6px;
+padding-bottom: 8px;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 154.286% */
+letter-spacing: -1.5px;
+}
+
+.altares2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 128% *//
+}
+
+.altares2-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+.altares-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+}
+
     /* Casas de vida */ 
 
 .casaDeVida-home {
@@ -2522,10 +3570,14 @@ flex-shrink: 0;
     padding-left: 20px;
 }
 
- .casa-conteiner2 .imagen-c { 
-   padding-left: 0px;
-    width: 398px;
-    padding-top: 88px;
+.casa-conteiner2 img{
+    width: 421px;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
 }
 
     /* CLASES */
@@ -2554,10 +3606,11 @@ flex-shrink: 0;
         z-index: 888;
         overflow: hidden;
         color: #fff;
-        width: 100%;
+        width: 500px;
         text-align: center;
         margin-top: 80px;
-        margin-left: -3px
+        margin-left: -187px;
+    
     }
     
     .clases-home .content h1 {
@@ -3016,7 +4069,7 @@ flex-shrink: 0;
         width: 100%;
         height: 100vh;
         top: 0;
-        left: 0;
+        left: -338px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -3105,7 +4158,7 @@ flex-shrink: 0;
     }
 
     #bautismos {
-        background: url(/img/82c2c8f4-0878-4b7a-b07f-740de8555926.jpg) !important;
+        background: url(/img/bautismos-fondo.jpg) !important;
         width: 100%;
         background-size: cover;
         height: 500px;
@@ -3192,7 +4245,7 @@ flex-shrink: 0;
     
     .componente3 {
         padding: 6vw 20vw 6vw 8vw;
-        background-image: url(/img/edward-cisneros-QSa-uv4WJ0k-unsplash.jpg);
+        background-image: url(/img/altares.jpg);
         width: 100%;
         height: 400px;
         margin-top: 0px;
@@ -3286,6 +4339,95 @@ flex-shrink: 0;
         font-weight: 300;;     
     }
 
+        /* bautismo */
+
+        .bautismos-home {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        
+        }
+        
+        .bautismos-home img {
+            z-index: 000;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-bottom: 33px;
+        }
+        
+        .bautismos-home .content {
+            z-index: 888;
+            overflow: hidden;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-top: 3px;
+            margin-left: -3px
+        }
+        
+        .bautismos-home .content h1 {
+            font-family: "Inter";
+        overflow: hidden;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        }
+        
+        .bautismos-container {
+            display: grid;
+            padding: 7vw 5vw 10vw 10vw;
+            
+        }
+        
+       
+        
+        .casa-text p {
+            color: var(--text-gray-900, #18191F);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            
+        
+        }
+        .bautismos-text {
+            padding-left: 0px;
+            width: 355px;
+        }
+        
+        .bautismos-text h3 {
+            color: #403F3F;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            padding-top: 79px;
+            padding-bottom: 10px;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 54px; /* 154.286% */
+            letter-spacing: -1.5px;
+        }
+        
+        .bautismos-text p {
+            color: var(--text-gray-900, #18191F);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
 
     /* Casas de vida */ 
 
@@ -3330,11 +4472,7 @@ flex-shrink: 0;
     padding-left: 20px;
 }
 
- .casa-conteiner2 .imagen-c { 
-   padding-left: 0px;
-   width: 369px;
-    padding-top: 88px;
-}
+
 
     /* CLASES */
 
