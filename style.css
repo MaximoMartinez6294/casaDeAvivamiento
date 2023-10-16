@@ -4022,6 +4022,13 @@ flex-shrink: 0;
         overflow-x: hidden;
     } 
 
+    .menu__arrow {
+        transform: var(--transform);
+        transition: transform .3s;
+        display: block;
+        margin-left: 3px;
+    }
+
     header .nav.active {
         position: fixed;
         width: 410px;
