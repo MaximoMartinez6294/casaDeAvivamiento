@@ -4021,6 +4021,19 @@ flex-shrink: 0;
         box-sizing: border-box;
         overflow-x: hidden;
     } 
+
+    header .nav.active {
+        position: fixed;
+        width: 410px;
+        height: 108vh;
+        top: 10px;
+        left: -387px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(1, 1, 1, 0.5);
+    }
+
     header {
         padding: 12px 12px 20px;
         overflow-x: hidden;
