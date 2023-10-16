@@ -3410,7 +3410,7 @@ flex-shrink: 0;
     font-size: 35px;
     font-weight: 900;
     letter-spacing: 3px;
-    margin-bottom: 40px;
+    margin-bottom: -30px;
     padding-left: 20px;
 }
 
@@ -3430,7 +3430,7 @@ flex-shrink: 0;
 
 .altares-text {
     padding-left: 0px;
-    width: 340px;
+    width: 320px;
 }
 
 .altares-text h3 {
@@ -3440,7 +3440,7 @@ font-feature-settings: 'liga' off;
 font-family: Inter;
 padding-top: 1px;
 padding-bottom: 10px;
-padding-left: 58px;
+padding-left: 46px;
 font-size: 45px;
 font-style: normal;
 font-weight: 800;
@@ -3484,7 +3484,7 @@ letter-spacing: -1.5px;
 
 .altares2-text {
 
-    padding-left: 35px;
+    padding-left: 0px;
     margin-top: 0px;
     width: 327px;
 
@@ -4398,7 +4398,7 @@ flex-shrink: 0;
         font-size: 35px;
         font-weight: 900;
         letter-spacing: 3px;
-        margin-bottom: 40px;
+        margin-bottom: -30px;
         padding-left: 20px;
         }
         
@@ -4422,7 +4422,7 @@ flex-shrink: 0;
         }
         .bautismos-text {
             padding-left: 0px;
-            width: 355px;
+            width: 315px;
         }
         
         .bautismos-text h3 {
