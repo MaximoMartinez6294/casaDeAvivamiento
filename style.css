@@ -248,6 +248,7 @@ header {
 }
 
 .about-logo {
+    cursor: pointer;
     width: 250px;
     margin-top: -30px;
 }
@@ -307,6 +308,7 @@ header .nav .nav-items a:hover {
 
 
 .logo {
+    cursor: pointer;
     width: 350px;
 }
 
