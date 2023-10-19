@@ -3502,7 +3502,7 @@ flex-shrink: 0;
     
     .componente2 {
         padding: 6vw 20vw 6vw 8vw;
-        background-image: url(/img/f63c6156-484c-406a-ac1a-788c77a9757a.jpg);
+        background-image: url(/img/presentacionNIños.jpg);
         width: 100%;
         height: 400px;
         margin-top: 0px;
@@ -3522,6 +3522,7 @@ flex-shrink: 0;
         padding: 6vw 20vw 6vw 8vw;
         background-image: url(/img/altares.jpg);
         width: 100%;
+        padding-left: 13px;
         height: 400px;
         margin-top: 0px;
         display: flex;
