@@ -3762,11 +3762,13 @@ flex-shrink: 0;
 
 .presentacion-home .content .p1 {
     padding-left: 12px;
+    font-size: 35px;
 }
 
 .presentacion-home .content .n1 {
     padding-left: 8px;
     padding-top: 28px;
+    font-size: 35px;
 }
 
 
