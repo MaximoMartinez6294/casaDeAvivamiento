@@ -5640,7 +5640,7 @@ letter-spacing: -1.5px;
 
 .presentacion-text {
     padding-left: 0px;
-    width: 326px;
+    width: 300px;
     text-align: center;
 }
 
@@ -5696,7 +5696,7 @@ letter-spacing: -1.5px;
 .presentacion2-text {
     padding-left: 0px;
     margin-top: 17px;
-    width: 325px;
+    width: 300px;
     text-align: center;
 }
 
@@ -5720,7 +5720,7 @@ letter-spacing: -1.5px;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
-    width: 315px;
+    width: 300px;
     padding-left: 14px;
     padding-top: 1px;
     font-style: normal;
