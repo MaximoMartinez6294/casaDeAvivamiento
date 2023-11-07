@@ -84,6 +84,7 @@ margin: 21px 154px 21px -126px;
     height: 100%;
     align-items: center;
     transition: 0.5s ease-in;
+    cursor: pointer;
 }
 
 .menu__link:hover{
