@@ -2272,7 +2272,7 @@ flex-shrink: 0;
 }
 
 .componente1 {
-    padding: 6vw 20vw 5vw 9vw;
+    padding: 6vw 20vw 5vw 2vw;
     margin-top: 40px;
     background-image: url(/img/tile_prayer-homepage.jpg);
     width: 100%;
@@ -2290,7 +2290,7 @@ flex-shrink: 0;
 }
 
 .componente2 {
-    padding: 6vw 20vw 6vw 8vw;
+    padding: 6vw 20vw 6vw 2vw;
     margin-top: 40px;
     background-image: url(/img/presentacionNIños.jpg);
     width: 100%;
@@ -2308,7 +2308,7 @@ flex-shrink: 0;
 }
 
 .componente3 {
-    padding: 6vw 20vw 6vw 8vw;
+    padding: 6vw 20vw 6vw 2vw;
     margin-top: 40px;
     background-image: url(/img/altares.jpg);
     width: 100%;
@@ -2329,82 +2329,137 @@ flex-shrink: 0;
     align-items: baseline;
 }
 
-.componente1 h3 {
- color: #fff;
- font-size: 35px;
- width: 100rem;
- margin-left: -25px;
- margin-top: -52px;
- position: absolute;
- 
+.componente4 {
+    padding: 6vw 20vw 6vw 2vw;
+    margin-top: 40px;
+    background-image: url(/img/fotoEvangelismo.jpg);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
 }
+
+.componente1 h3 {
+    color: #fff;
+    font-size: 35px;
+    width: 100rem;
+    margin-left: 52px;
+    margin-top: -95px;
+    position: absolute;
+}
+
 
 .componente1 p {
     color: #fff;
     width: 400px;
     display: flex;
-    margin-left: -107px;
-    margin-top: 60px;
+    margin-left: -6px;
+    margin-top: 80px;
     position: absolute;
     font-family: "Inter";
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-
+    width: 330px;
 }
 
 .componente2 .dedicacion {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 35px;
     margin-top: -172px;
-    margin-left: -12px;
-    width: 100rem;
+    margin-left: 24px;
+    width: 300px;
     position: absolute;
 }
 
 .componente2 .niños {
-    color: #fff;
+    color: rgb(255, 255, 255);
     font-size: 35px;
-    width: 100rem;
-    margin-left: 38px;
+    width: 200px;
+    margin-left: 84px;
     margin-top: -97px;
     position: absolute;
 }
    
 .componente2 p {
-    color: #fff;
+    color: rgb(255, 255, 255);
     width: 310px;
     display: flex;
-    margin-left: -41px;
+    margin-left: 15px;
     margin-top: 90px;
     position: absolute;
-    font-family: "Inter";
+    font-family: Inter;
     font-size: 20px;
     text-align: center;
-    font-weight: 400;;   
+    font-weight: 400;
 }
 
 .componente3 h3 {
     color: #fff;
     font-size: 35px;
-    margin-top: -94px;
+    margin-top: -114px;
     margin-left: 70px;
+    width: 400px;
+    position: absolute;
+}
+
+   
+.componente3 p {
+    color: #fff;
+    width: 300px;
+    display: flex;
+    margin-left: -3px;
+    margin-top: 130px;
+    position: absolute;
+    font-family: "Inter";
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.componente4 h3 {
+    color: #fff;
+    font-size: 35px;
+    margin-top: -161px;
+    margin-left: 55px;
+    width: 100rem;
+    position: absolute;
+}
+
+.componente4 .hospitales {
+    color: #fff;
+    font-size: 35px;
+    margin-top: -94px;
+    margin-left: 51px;
     width: 100rem;
     position: absolute;
 }
    
-.componente3 p {
+.componente4 p {
     color: #fff;
-    width: 400px;
+    width: 375px;
     display: flex;
-    margin-left: -60px;
-    margin-top: 130px;
+    margin-left: -16px;
+    margin-top: 95px;
     position: absolute;
     font-family: "Inter";
     font-size: 20px;
     text-align: center;
-    font-weight: 400;;     
+    font-weight: 400;
 }
+
 
 .componente1:hover {
     transform: translateY(0px);
@@ -2478,6 +2533,31 @@ flex-shrink: 0;
 .componente3:hover::before{
     opacity: 1;
 }
+
+.componente4:hover {
+    transform: translateY(0px);
+}
+
+.componente4::before {
+    content: "";
+    background: linear-gradient(to bottom, rgba(206, 94, 3, 0.075), rgba(212, 67, 62, 0.308));
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transition: 0.5s all;
+    cursor: pointer;
+
+}
+
+.componente4:hover::before{
+    opacity: 1;
+}
+
 
 .medio {
     opacity: 0;
@@ -2655,7 +2735,7 @@ footer {
 }
 .button:hover {
   
- background-color: #4d94bd;
+ background-color: #092b14;
  color: #fff;
     
 }
@@ -3593,12 +3673,6 @@ flex-shrink: 0;
         padding-left: 1px;
     }
 
-    #bautismos {
-        background: url(/img/bautismos-fondo.jpg) !important;
-        width: 100%;
-        background-size: cover;
-
-    }
     .derecha {
         width: 500px;
         margin-left: -11px;
@@ -3608,7 +3682,7 @@ flex-shrink: 0;
     .derecha h1 {
         font-family: "Inter";
         font-size: 45px;
-        margin-left: 50px;
+        margin-left: 25px;
         font-weight: 900;
         letter-spacing: 3px;
         color: #fff;
@@ -3697,16 +3771,43 @@ flex-shrink: 0;
         justify-content: center;
         align-items: baseline;
     }
-    
-    .componente1 h3 {
-     color: #fff;
-     font-size: 40px;
-     width: 100rem;
-     position: absolute;
-     margin-left: 50px;
-     margin-top: -115px;
-     
+
+    #bautismos {
+        background: url(/img/discipuladoMovil.png) !important;
+        width: 100%;
+        background-size: cover;
     }
+
+    
+.componente4 {
+    padding: 6vw 20vw 6vw 8vw;
+    margin-top: 40px;
+    background-image: url(/img/fotoEvangelismo.jpg);
+    width: 100%;
+    padding-left: 13px;
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+    
+.componente1 h3 {
+    color: #fff;
+    font-size: 40px;
+    width: 100rem;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: -143px;
+}
     
     .componente1 p {
         color: #fff;
@@ -3773,6 +3874,37 @@ flex-shrink: 0;
         font-size: 20px;
         text-align: center;
         font-weight: 300;;     
+    }
+
+    .componente4 h3 {
+        color: #fff;
+        font-size: 35px;
+        margin-top: -161px;
+        margin-left: 64px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 .hospitales {
+        color: #fff;
+        font-size: 35px;
+        margin-top: -94px;
+        margin-left: 57px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 p {
+        color: #fff;
+        width: 375px;
+        display: flex;
+        margin-left: -1px;
+        margin-top: 95px;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
     }
 
     /* bautismo */
@@ -5085,18 +5217,33 @@ flex-shrink: 0;
         overflow-x: hidden;
     } 
 
+    .menu__link {
+        padding: 14px 20px;
+        padding-left: 18px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .menu__links2 {
+        background-color: #222;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin: 9px 323px 13px -207px;
+    }
+
     .menu__arrow {
         transform: var(--transform);
         transition: transform .3s;
         display: block;
         margin-left: 3px;
     }
-
     header .nav.active {
         position: fixed;
         width: 410px;
-        height: 108vh;
-        top: 10px;
+        height: 107vh;
+        top: 0px;
         left: -387px;
         display: flex;
         justify-content: center;
@@ -5241,7 +5388,7 @@ flex-shrink: 0;
     }
 
     #bautismos {
-        background: url(/img/bautismos-fondo.jpg) !important;
+        background: url(/img/discipuladoMovil.png) !important;
         width: 100%;
         background-size: cover;
         height: 500px;
@@ -5256,7 +5403,7 @@ flex-shrink: 0;
     .derecha h1 {
         font-family: "Inter";
         font-size: 45px;
-        margin-left: 21px;
+        margin-left: 2px;
         font-weight: 900;
         letter-spacing: 3px;
         color: #fff;
@@ -5276,10 +5423,9 @@ flex-shrink: 0;
     .button {
         text-align: center;
         vertical-align: top;
-        padding: calc(.925rem - 2px) 20px calc(.725rem - 3px) 20px;
+        padding: calc(0.925rem - 2px) 20px calc(0.725rem - 3px) 20px;
         margin-top: 30px;
-        margin-left: 77px;
-
+        margin-left: 47px;
     }
     
     #conteiner {
@@ -5421,6 +5567,39 @@ flex-shrink: 0;
         text-align: center;
         font-weight: 300;;     
     }
+
+    .componente4 h3 {
+        color: #fff;
+        font-size: 35px;
+        margin-top: -161px;
+        margin-left: 43px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 .hospitales {
+        color: #fff;
+        font-size: 35px;
+        margin-top: -94px;
+        margin-left: 39px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 p {
+        color: #fff;
+        width: 350px;
+        display: flex;
+        margin-left: -1px;
+        margin-top: 95px;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    
 
            /* Discipulado*/
 
