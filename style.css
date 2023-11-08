@@ -2229,7 +2229,7 @@ flex-shrink: 0;
 #bautismos {
     background-image: url(/img/bautismos-fondo.jpg);
     width: 100%;
-    height: 500px;
+    height: 555px;
     margin-top: 20px;
     background-size: cover;
     background-position: center;
@@ -2276,7 +2276,7 @@ flex-shrink: 0;
     margin-top: 40px;
     background-image: url(/img/tile_prayer-homepage.jpg);
     width: 100%;
-    height: 500px;
+    height: 460px;
     display: flex;
     align-items: center;
     flex: 1;
@@ -2294,7 +2294,7 @@ flex-shrink: 0;
     margin-top: 40px;
     background-image: url(/img/presentacionNIños.jpg);
     width: 100%;
-    height: 500px;
+    height: 460px;
     display: flex;
     align-items: center;
     flex: 1;
@@ -2312,7 +2312,7 @@ flex-shrink: 0;
     margin-top: 40px;
     background-image: url(/img/altares.jpg);
     width: 100%;
-    height: 500px;
+    height: 460px;
     overflow: hidden;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -2334,7 +2334,7 @@ flex-shrink: 0;
     margin-top: 40px;
     background-image: url(/img/fotoEvangelismo.jpg);
     width: 100%;
-    height: 500px;
+    height: 460px;
     overflow: hidden;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -2354,19 +2354,18 @@ flex-shrink: 0;
 .componente1 h3 {
     color: #fff;
     font-size: 35px;
-    width: 100rem;
+    width: 300px;
     margin-left: 52px;
-    margin-top: -95px;
+    margin-top: -115px;
     position: absolute;
 }
 
 
 .componente1 p {
     color: #fff;
-    width: 400px;
     display: flex;
     margin-left: -6px;
-    margin-top: 80px;
+    margin-top: 47px;
     position: absolute;
     font-family: "Inter";
     font-size: 20px;
@@ -2409,7 +2408,7 @@ flex-shrink: 0;
 .componente3 h3 {
     color: #fff;
     font-size: 35px;
-    margin-top: -114px;
+    margin-top: -124px;
     margin-left: 70px;
     width: 400px;
     position: absolute;
@@ -2418,10 +2417,10 @@ flex-shrink: 0;
    
 .componente3 p {
     color: #fff;
-    width: 300px;
+    width: 320px;
     display: flex;
     margin-left: -3px;
-    margin-top: 130px;
+    margin-top: 88px;
     position: absolute;
     font-family: "Inter";
     font-size: 18px;
