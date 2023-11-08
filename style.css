@@ -692,7 +692,6 @@ i.fa-brands.fa-instagram{
 .presentacion-home .content .n1 {
     padding-left: 140px;
 }
-
 .presentacion-container {
     display: flex;
     padding: 6vw 5vw 6vw 10vw;
@@ -861,25 +860,13 @@ presentacion-conteiner2 .imagen-c {
 
 .discipulado-container {
     display: flex;
-    padding: 6vw 5vw 2vw 10vw;
+    padding: 6vw 5vw 6vw 10vw;
 }
 
-.discipulado-container .discipulado-img {
-    width: 100%;
-    padding-left: 80px;
-    
-}
-.discipulado-img {
-    padding-top: 30px;
-    overflow: hidden;
-    width: 450px;
-    margin-left: -52px; 
-}
 
 .discipulado-text {
-    padding-left: 0px;
-    padding-top: 50px;
-    width: 1103px;
+    padding-left: 40px;
+    width: 1417px;
 }
 
 .discipulado-text h3 {
@@ -889,11 +876,13 @@ font-feature-settings: 'liga' off;
 font-family: Inter;
 padding-top: 47px;
 padding-bottom: 10px;
-font-size: 45px;
+font-size: 50px;
 font-style: normal;
 font-weight: 800;
 line-height: 54px; /* 154.286% */
 letter-spacing: -1.5px;
+margin-top: -54px;
+margin-bottom: 20px;
 }
 
 .discipulado-text p {
@@ -907,31 +896,15 @@ letter-spacing: -1.5px;
     line-height: 32px; /* 128% *//
 }
 
-.discipulado-img2 {
- display: none;
-}
-
-
 .discipulado2-container {
     display: flex;
-    padding: 0vw 4vw 6vw 1vw;
+    padding: 6vw 5vw 6vw 10vw;
 }
 
-.discipulado2-container .discipulado2-img {
-    width: 120%;
-    
-}
-.discipulado2-img {
-    padding-top: 30px;
-    overflow: hidden;
-    width: 100%;
-    margin-left: 29px;
-}
 
 .discipulado2-text {
-    padding-left: 62px;
-    margin-top: 17px;
-    width: 1550px;
+    padding-left: 40px;
+    width: 1417px;
 }
 
 .discipulado2-text h3 {
@@ -939,14 +912,15 @@ color: #403F3F;
 font-variant-numeric: lining-nums proportional-nums;
 font-feature-settings: 'liga' off;
 font-family: Inter;
-padding-top: 6px;
-padding-left: 50px;
-padding-bottom: 8px;
-font-size: 45px;
+padding-top: 47px;
+padding-bottom: 10px;
+font-size: 50px;
 font-style: normal;
 font-weight: 800;
 line-height: 54px; /* 154.286% */
 letter-spacing: -1.5px;
+margin-top: -54px;
+margin-bottom: 20px;
 }
 
 .discipulado2-text p {
@@ -954,15 +928,46 @@ letter-spacing: -1.5px;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
-    padding-top: 22px;
+    padding-top: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px; /* 128% *//
 }
 
-.discipulado2-img2 {
- display: none;
+
+.discipulado3-conteiner {
+    display: flex;
+    padding: 0vw 5vw 6vw 10vw;
 }
+
+.discipulado3-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px; /* 154.286% */
+    letter-spacing: -1.5px;
+    margin-top: -54px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+    
+    .discipulado3-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 20px;
+        padding-top: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 128% *//
+    }
+
 
 .discipulado-conteiner2 {
     overflow:hidden ;
@@ -1301,6 +1306,158 @@ letter-spacing: -1.5px;
     overflow: hidden;
 }
 
+/* Evangelismo*/
+.evangelismo-home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.evangelismo-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.evangelismo-home .content {
+    z-index: 888;
+    color: #fff;
+    width: 100%;
+    margin-top: 80px;
+    overflow-y: hidden;
+    text-align: center;
+}
+
+.evangelismo-home .content h1 {
+    font-family: "Inter";
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.evangelismo-container {
+    display: flex;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.evangelismo-container .evangelismo-img {
+    width: 120%;
+    
+}
+.evangelismo-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.evangelismo-text {
+    padding-left: 40px;
+    width: 1417px;
+}
+
+.evangelismo-text h3 {
+    color: rgb(64, 63, 63);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: "liga" 0;
+    font-family: Inter;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.evangelismo-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.evangelismo-img2 {
+ display: none;
+}
+
+
+.evangelismo2-container {
+    display: flex;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+.evangelismo2-container .evangelismo2-img {
+    width: 120%;
+    
+}
+.evangelismo2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 29px;
+}
+
+.evangelismo2-text {
+    padding-left: 0px;
+    padding-top: -30px;
+    width: 1271px;
+}
+
+.evangelismo2-text h3 {
+    color: rgb(64, 63, 63);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: "liga" 0;
+    font-family: Inter;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 30px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.evangelismo2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 620px;
+}
+
+.evangelismo2-img2 {
+ display: none;
+}
+
+.evangelismo-conteiner2{
+    overflow: hidden;
+}
+
+.evangelismo-conteiner2 img{
+    width: 100%;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
 
 /* Bautismos */
 
@@ -2970,7 +3127,6 @@ header .about-nav.about-nav.active .nav-items {
     font-weight: 900;
     letter-spacing: 3px;
 }
-/* Casas de vida */ 
 
 /* Contact*/
 .contact-home {
@@ -3947,7 +4103,7 @@ presentacion-conteiner2 .imagen-c {
 
 .discipulado-container {
     display: grid;
-    padding: 6vw 5vw 2vw 10vw;
+    padding: 6vw 5vw 2vw 2vw;
 }
 
 .discipulado-container .discipulado-img {
@@ -3961,7 +4117,7 @@ presentacion-conteiner2 .imagen-c {
 
 .discipulado-text {
     padding-left: 0px;
-    width: 326px;
+    width: 400px;
     text-align: center;
 }
 
@@ -3970,11 +4126,11 @@ presentacion-conteiner2 .imagen-c {
     font-variant-numeric: lining-nums proportional-nums;
     font-feature-settings: 'liga' off;
     font-family: Inter;
-    padding-top: 0px;
+    padding-top: 70px;
     padding-bottom: 0px;
     padding-left: 0px;
-    text-align: center;
-    font-size: 40px;
+    text-align: start;
+    font-size: 29px;
     font-style: normal;
     font-weight: 800;
     line-height: 54px;
@@ -3986,6 +4142,7 @@ presentacion-conteiner2 .imagen-c {
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
+    text-align: start;
     padding-top: 11px;
     font-style: normal;
     font-weight: 400;
@@ -4002,7 +4159,7 @@ presentacion-conteiner2 .imagen-c {
 
 .discipulado2-container {
     display: grid;
-    padding: 6vw 5vw 10vw 10vw;
+    padding: 6vw 5vw 11vw 2vw;
 }
 
 
@@ -4017,22 +4174,23 @@ presentacion-conteiner2 .imagen-c {
 .discipulado2-text {
     padding-left: 0px;
     margin-top: 17px;
-    width: 325px;
+    width: 400px;
     text-align: center;
 }
 
 .discipulado2-text h3 {
-color: #403F3F;
-font-variant-numeric: lining-nums proportional-nums;
-font-feature-settings: 'liga' off;
-font-family: Inter;
-padding-top: 6px;
-padding-bottom: 8px;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: 54px; /* 154.286% */
-letter-spacing: -1.5px;
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 51px;
+    padding-bottom: 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    text-align: start;
 }
 
 .discipulado2-text p {
@@ -4040,12 +4198,12 @@ letter-spacing: -1.5px;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
-    padding-top: 22px;
+    padding-top: 0px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% */
+    line-height: 32px;
+    text-align: start;
 }
-
 .discipulado2-img2 {
     width: 100%;
     display: flex;
@@ -4072,6 +4230,42 @@ letter-spacing: -1.5px;
     padding-top: 30px;
 
 }
+
+.discipulado3-conteiner {
+    display: flex;
+    padding: 0vw 5vw 6vw 2vw;
+}
+
+.discipulado3-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    margin-top: -54px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+.discipulado3-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+
 
   /* Altares*/
   
@@ -4228,58 +4422,8 @@ letter-spacing: -1.5px;
     padding-top: 30px;
 }
 
-    /* Casas de vida */ 
 
-.casaDeVida-home {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
 
-}
-
-.casaDeVida-home img {
-    z-index: 000;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-bottom: 33px;
-}
-
-.casaDeVida-home .content {
-    z-index: 888;
-    overflow: hidden;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    margin-top: 3px;
-    margin-left: -3px
-}
-
-.casaDeVida-home .content h1 {
-    font-family: "Inter";
-    overflow: hidden;
-    font-size: 35px;
-    font-weight: 900;
-    letter-spacing: 3px;
-    margin-bottom: 40px;
-    padding-left: 20px;
-}
-
-.casa-conteiner2 img{
-    width: 421px;
-    border: 0;
-    height: auto !important;
-    margin: 0;
-    max-width: 100%;
-    margin-bottom: -10px;
-    overflow: hidden;
-}
 
     /* CLASES */
 
@@ -4375,7 +4519,225 @@ letter-spacing: -1.5px;
         margin-bottom: 40px;
         padding-left: 20px;
     }
+
+    /*EVANGELISMO*/
+
+    .evangelismo-home {
+        position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    }
+    
+    .evangelismo-home img {
+        z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+    }
+    
+    .evangelismo-home .content {
+        z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -3px
+    }
+    
+    .evangelismo-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: -10px;
+        padding-left: 20px;
+    }
+    
+    .evangelismo-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .evangelismo-container .evangelismo-img {
+        display: none;
+    }
+    .evangelismo-img {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 450px;
+        margin-left: -52px; 
+    }
+    
+    .evangelismo-text {
+        padding-left: 0px;
+        width: 360px;
+    }
+    
+    .evangelismo-text h3 {
+        color: rgb(64, 63, 63);
+        font-variant-numeric: lining-nums proportional-nums;
+        font-feature-settings: "liga" 0;
+        font-family: Inter;
+        padding-top: 9px;
+        padding-bottom: 10px;
+        font-size: 45px;
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: -1.5px;
+    }
+    
+    .evangelismo-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: "salt", "liga" 0;
+        font-family: Inter;
+        font-size: 17px;
+        padding-top: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+    }
+    
+    .evangelismo-img2 {
+        width: 345px;
+        margin-top: 20px;
+        border: 0;
+        height: auto !important;
+        max-width: 100%;
+        margin-bottom: -20px;
+        overflow: hidden;
+        display: flex;
+    }
+    
+    
+    .evangelismo2-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .evangelismo2-container .evangelismo2-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .evangelismo2-img {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 450px;
+        margin-left: 29px;
+        display: flex;
+    }
+    
+    .evangelismo2-text {
+        padding-left: 0px;
+        padding-top: 0px;
+        width: 360px;
+    }
+    
+    .evangelismo2-text h3 {
+        color: #403F3F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        padding-top: 47px;
+        padding-bottom: 10px;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: -1.5px;
+    }
+    
+    .evangelismo2-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: "salt", "liga" 0;
+        font-family: Inter;
+        font-size: 17px;
+        padding-top: 0px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        width: 355px;
+    }
+    
+    .evangelismo2-img2 {
+        display: flex;
+        margin-left: -20px;
+    }
+    
+    .evangelismo-conteiner2{
+        overflow: hidden;
+    }
+    
+    .evangelismo-conteiner2 img{
+        width: 100%;
+        border: 0;
+        height: auto !important;
+        margin: 0;
+        max-width: 100%;
+        margin-bottom: -10px;
+        overflow: hidden;
+    }
  /*Casa de vida */
+ .casaDeVida-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.casaDeVida-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+.casaDeVida-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -3px
+}
+
+.casaDeVida-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.casa-conteiner2 img{
+    width: 421px;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
     .casa-container {
         display: grid;
         padding: 7vw 5vw 10vw 10vw;
@@ -5102,9 +5464,10 @@ flex-shrink: 0;
     padding-left: 1px;
 }
 
+
 .discipulado-container {
     display: grid;
-    padding: 6vw 5vw 2vw 10vw;
+    padding: 6vw 5vw 2vw 2vw;
 }
 
 .discipulado-container .discipulado-img {
@@ -5118,7 +5481,7 @@ flex-shrink: 0;
 
 .discipulado-text {
     padding-left: 0px;
-    width: 295px;
+    width: 400px;
     text-align: center;
 }
 
@@ -5127,11 +5490,11 @@ flex-shrink: 0;
     font-variant-numeric: lining-nums proportional-nums;
     font-feature-settings: 'liga' off;
     font-family: Inter;
-    padding-top: 0px;
+    padding-top: 70px;
     padding-bottom: 0px;
     padding-left: 0px;
-    text-align: center;
-    font-size: 40px;
+    text-align: start;
+    font-size: 29px;
     font-style: normal;
     font-weight: 800;
     line-height: 54px;
@@ -5143,6 +5506,7 @@ flex-shrink: 0;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
+    text-align: start;
     padding-top: 11px;
     font-style: normal;
     font-weight: 400;
@@ -5159,7 +5523,7 @@ flex-shrink: 0;
 
 .discipulado2-container {
     display: grid;
-    padding: 6vw 5vw 10vw 10vw;
+    padding: 6vw 5vw 11vw 2vw;
 }
 
 
@@ -5174,23 +5538,23 @@ flex-shrink: 0;
 .discipulado2-text {
     padding-left: 0px;
     margin-top: 17px;
-    width: 296px;
+    width: 400px;
     text-align: center;
 }
 
 .discipulado2-text h3 {
-color: #403F3F;
-font-variant-numeric: lining-nums proportional-nums;
-font-feature-settings: 'liga' off;
-font-family: Inter;
-padding-top: 6px;
-padding-bottom: 8px;
-margin-left: -47px;
-font-size: 45px;
-font-style: normal;
-font-weight: 800;
-line-height: 54px; /* 154.286% */
-letter-spacing: -1.5px;
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 51px;
+    padding-bottom: 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    text-align: start;
 }
 
 .discipulado2-text p {
@@ -5198,17 +5562,71 @@ letter-spacing: -1.5px;
     font-feature-settings: 'salt' on, 'liga' off;
     font-family: Inter;
     font-size: 20px;
-    padding-top: 22px;
+    padding-top: 0px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px;
+    text-align: start;
 }
-
 .discipulado2-img2 {
     width: 100%;
     display: flex;
     margin-top: 15px;
     margin-left: -7px;
+}
+
+.discipulado-conteiner2 {
+    overflow:hidden ;
+    width: 430px;
+}
+
+
+.discipulado-conteiner2 img{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+.discipulado-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+
+}
+
+.discipulado3-conteiner {
+    display: flex;
+    padding: 0vw 5vw 6vw 2vw;
+}
+
+.discipulado3-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    margin-top: -54px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+.discipulado3-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
 }
 
 .discipulado-conteiner2 {
@@ -5284,16 +5702,7 @@ letter-spacing: -1.5px;
         
        
         
-        .casa-text p {
-            color: var(--text-gray-900, #18191F);
-            font-feature-settings: 'salt' on, 'liga' off;
-            font-family: Inter;
-            font-size: 25px;
-            font-style: normal;
-            font-weight: 400;
-            
-        
-        }
+  
         .bautismos-text {
             padding-left: 0px;
             width: 315px;
@@ -5364,6 +5773,17 @@ letter-spacing: -1.5px;
     letter-spacing: 3px;
     margin-bottom: 40px;
     padding-left: 20px;
+}
+
+.casa-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    
+
 }
 
 
@@ -5752,6 +6172,176 @@ letter-spacing: -1.5px;
 presentacion-conteiner2 .imagen-c {
     padding-left: 600px;
     padding-top: 30px;
+}
+
+/*EVANGELISMO*/
+
+.evangelismo-home {
+    position: relative;
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.evangelismo-home img {
+    z-index: 000;
+position: absolute;
+overflow: hidden;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+margin-bottom: 33px;
+}
+
+.evangelismo-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -12px;
+}
+
+.evangelismo-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: -8px;
+    padding-left: 35px;
+}
+
+.evangelismo-container {
+    display: grid;
+    padding: 7vw 5vw 10vw 4vw;
+}
+
+.evangelismo-container .evangelismo-img {
+    display: none;
+}
+.evangelismo-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.evangelismo-text {
+    padding-left: 0px;
+    width: 360px;
+}
+
+.evangelismo-text h3 {
+    color: rgb(64, 63, 63);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: "liga" 0;
+    font-family: Inter;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.evangelismo-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.evangelismo-img2 {
+    width: 345px;
+    margin-top: 20px;
+    border: 0;
+    height: auto !important;
+    max-width: 100%;
+    margin-bottom: -20px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.evangelismo2-container {
+    display: grid;
+    padding: 7vw 5vw 10vw 4vw;
+}
+
+.evangelismo2-container .evangelismo2-img {
+    width: 100%;
+    display: none;
+    
+}
+.evangelismo2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 29px;
+    display: flex;
+}
+
+.evangelismo2-text {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 360px;
+}
+
+.evangelismo2-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.evangelismo2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 355px;
+}
+
+.evangelismo2-img2 {
+    display: flex;
+    width: 450px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.evangelismo-conteiner2{
+    overflow: hidden;
+}
+
+.evangelismo-conteiner2 img{
+    width: 100%;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
 }
 
     
