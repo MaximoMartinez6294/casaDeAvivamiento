@@ -5529,6 +5529,149 @@ flex-shrink: 0;
         overflow-x: hidden;
     } 
 
+    .wrapper-e {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: grid;
+        padding-top: 20px;
+    }
+
+    .carta2 {
+        width: 333px;
+        height: 296px;
+        padding: 15rem 8rem 40px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        align-items: flex-end;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 10px;
+        transition: all 0.5s ease-in-out 0s;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    
+    
+    .carta2::before {
+        content: "";
+        background: linear-gradient(to bottom, rgba(206, 94, 3, 0.288), rgb(212, 67, 62));
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        transition: 0.5s all;
+    
+    }
+    
+    .carta2:hover::before{
+        opacity: 1;
+    }
+    .carta2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .carta2 .info1-2 {
+        position: absolute;
+        z-index: 3;
+        color: #fff;
+        font-size: 20px;
+        opacity: 1;
+        width: 100%;
+        transform: translateY(30px);
+        transition: 0.5s all;
+        cursor: pointer;
+    }
+    .carta2:hover .info1-2{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    .carta2 .info2 {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: 0.5s all;
+        cursor: pointer;
+    }
+    .carta2:hover .info2{
+        opacity: 1;
+        transform: translateY(0px);
+        width: 100%;
+    }
+
+    .titulo2 {
+        font-family: Inter;
+        position: absolute;
+        font-size: 15px;
+        font-weight: 900;
+        color: rgb(64, 63, 63);
+        padding-top: 62px;
+        padding-left: 61px;
+        width: 362px;
+    }
+    .details {
+        position: absolute;
+        width: 350px;
+        margin-left: 40px;
+        margin-top: 68px;
+        padding: 1em;
+    }
+    
+    .details .titulo3 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9em;
+        color: #515151;
+        white-space: normal;
+    }
+    
+    .details .date {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 0.7em;
+        color: #515151;
+    }
+    .details2 {
+        position: absolute;
+        width: 350px;
+        margin-left: 1px;
+        margin-top: 426px;
+        padding: 1em;
+    }
+    
+    .details2 .titulo4 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9em;
+        color: #515151;
+        white-space: normal;
+    }
+    
+    .details2 .date2 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 0.7em;
+        color: #515151;
+    }
+    
+
     .menu__link {
         padding: 14px 20px;
         padding-left: 18px;
