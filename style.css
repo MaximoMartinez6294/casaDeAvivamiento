@@ -5944,13 +5944,12 @@ flex-shrink: 0;
     }
     
     .componente1 h3 {
-     color: #fff;
-     font-size: 40px;
-     width: 100rem;
-     position: absolute;
-     margin-left: 29px;
-     margin-top: -115px;
-     
+        color: #fff;
+        font-size: 40px;
+        width: 100rem;
+        position: absolute;
+        margin-left: 42px;
+        margin-top: -140px;
     }
     
     .componente1 p {
@@ -6001,10 +6000,10 @@ flex-shrink: 0;
     .componente3 h3 {
         color: #fff;
         font-size: 45px;
-        margin-top: -200px;
+        margin-top: -211px;
         margin-left: 61px;
-        width: 100rem;
-        position: absolute;;
+        width: 197px;
+        position: absolute;
     }
        
     .componente3 p {
