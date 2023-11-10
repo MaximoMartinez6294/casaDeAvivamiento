@@ -5647,8 +5647,8 @@ flex-shrink: 0;
     .details2 {
         position: absolute;
         width: 350px;
-        margin-left: 1px;
-        margin-top: 426px;
+        margin-left: -5px;
+        margin-top: 412px;
         padding: 1em;
     }
     
