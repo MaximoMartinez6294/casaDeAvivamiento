@@ -5646,6 +5646,7 @@ flex-shrink: 0;
         position: absolute;
         margin-left: -6px;
         margin-top: 422px !important; 
+        height: 80px !important;
     }
     
     .details2 .titulo4 {
