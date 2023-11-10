@@ -4389,7 +4389,7 @@ flex-shrink: 0;
 .presentacion-text {
     padding-left: 0px;
     width: 326px;
-    text-align: center;
+    text-align: start;
 }
 
 .presentacion-text h3 {
@@ -4445,7 +4445,7 @@ flex-shrink: 0;
     padding-left: 0px;
     margin-top: 17px;
     width: 325px;
-    text-align: center;
+    text-align: start;
 }
 
 .presentacion2-text h3 {
@@ -4850,14 +4850,15 @@ letter-spacing: -1.5px;
     padding-top: 22px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px;
+    width: 320px;
 }
 
 .altares2-img2 {
     width: 100%;
     display: flex;
     margin-top: 15px;
-    margin-left: -7px;
+    margin-left: -21px;
 }
 
 .altares-conteiner2 .imagen-c {
@@ -6692,7 +6693,7 @@ flex-shrink: 0;
 .presentacion-text {
     padding-left: 0px;
     width: 300px;
-    text-align: center;
+    text-align: start;
 }
 
 .presentacion-text h3 {
@@ -6748,7 +6749,7 @@ flex-shrink: 0;
     padding-left: 0px;
     margin-top: 17px;
     width: 300px;
-    text-align: center;
+    text-align: start;
 }
 
 .presentacion2-text h3 {
@@ -6889,6 +6890,7 @@ margin-bottom: 33px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    width: 352px;
 }
 
 .evangelismo-img2 {
@@ -6946,7 +6948,7 @@ margin-bottom: 33px;
     font-feature-settings: "salt", "liga" 0;
     font-family: Inter;
     font-size: 17px;
-    padding-top: 0px;
+    padding-top: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
@@ -7200,6 +7202,1694 @@ height: 350px;
 flex-direction: column;
 justify-content: center;
 flex-shrink: 0;
+}
+}
+
+@media (max-width: 360px){
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    } 
+
+    .wrapper-e {
+        width: 100%;
+        height: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: grid;
+        padding-top: 20px;
+    }
+
+    .carta2 {
+        width: 333px;
+        height: 296px;
+        padding: 15rem 8rem 40px;
+        background: rgb(255, 255, 255);
+        position: relative;
+        align-items: flex-end;
+        box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 10px;
+        transition: all 0.5s ease-in-out 0s;
+        margin-left: 5px;
+        margin-top: 60px;
+    }
+    
+    
+    .carta2::before {
+        content: "";
+        background: linear-gradient(to bottom, rgba(206, 94, 3, 0.288), rgb(212, 67, 62));
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 100%;
+        z-index: 2;
+        transition: 0.5s all;
+    
+    }
+    
+    .carta2:hover::before{
+        opacity: 1;
+    }
+    .carta2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .carta2 .info1-2 {
+        position: absolute;
+        z-index: 3;
+        color: #fff;
+        font-size: 20px;
+        opacity: 1;
+        width: 100%;
+        transform: translateY(30px);
+        transition: 0.5s all;
+        cursor: pointer;
+    }
+    .carta2:hover .info1-2{
+        opacity: 0;
+        transform: translateY(0px);
+    }
+    .carta2 .info2 {
+        position: relative;
+        z-index: 3;
+        color: #fff;
+        opacity: 0;
+        transform: translateY(30px);
+        transition: 0.5s all;
+        cursor: pointer;
+    }
+    .carta2:hover .info2{
+        opacity: 1;
+        transform: translateY(0px);
+        width: 100%;
+    }
+
+    .titulo2 {
+        font-family: Inter;
+        position: absolute;
+        font-size: 15px;
+        font-weight: 900;
+        color: rgb(64, 63, 63);
+        padding-top: 62px;
+        padding-left: 61px;
+        width: 362px;
+    }
+    .details {
+        position: absolute;
+        width: 350px;
+        margin-left: 40px;
+        margin-top: 68px;
+        padding: 1em;
+    }
+    
+    .details .titulo3 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9em;
+        color: #515151;
+        white-space: normal;
+    }
+    
+    .details .date {
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 0.7em;
+        color: #515151;
+    }
+    .details2 {
+        position: absolute;
+        margin-left: -6px;
+        margin-top: 422px !important; 
+        height: 80px !important;
+    }
+    
+    .details2 .titulo4 {
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        font-size: 0.9em;
+        color: #515151;
+        white-space: normal;
+    }
+    
+    .details2 .date2 {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: 300;
+        font-size: 0.7em;
+        color: #515151;
+    }
+    
+
+    .menu__link {
+        padding: 14px 20px;
+        padding-left: 18px;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .menu__links2 {
+        background-color: #222;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+        transform: translateX(100%);
+        margin: 9px 323px 13px -207px;
+    }
+
+    .menu__arrow {
+        transform: var(--transform);
+        transition: transform .3s;
+        display: block;
+        margin-left: 3px;
+    }
+    header .nav.active {
+        position: fixed;
+        width: 410px;
+        height: 107vh;
+        top: 0px;
+        left: -387px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(1, 1, 1, 0.5);
+    }
+
+    header {
+        padding: 12px 12px 20px;
+        overflow-x: hidden;
+    }
+    header .logo {
+        width: 420px;
+    }
+
+    section {
+        padding: 100px 20px;
+        overflow-x: hidden;
+    }
+
+    .home { 
+        overflow: hidden;
+    }
+
+    .home .img {
+        overflow: hidden ;
+        overflow-y: hidden;
+    }
+    .home .content {
+        overflow: hidden !important; 
+    }
+    .home .content h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+    
+    .home .media-icons {
+        font-size: 150px;
+        right: -40px;
+        top: 720px;
+    }
+
+    .home .media-icons a {
+        color: #fff;
+        font-size: 1.1rem;
+        transition: 0.3s ease;
+    }
+    header .about-nav {
+        display: none;
+    }
+    header .about-nav.active {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: -338px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(1, 1, 1, 0.5);
+    }
+    header .about-nav .nav-items a {
+        color: #222;
+        font-size: 1.2em;
+        margin: 20px;
+    }
+
+    header .about-nav .nav-items a:before {
+        background: #222;
+        height: 3px;
+    }
+
+    header .about-nav.about-nav.active .nav-items {
+        background: #fff;
+        width: 600px;
+        max-width: 600px;
+        margin: 20px;
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 5px 25px rgb(1, 1, 1 / 20%);
+    }
+
+    .wrapper {
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        display: grid;
+        padding-top: 20px;
+        
+    }
+
+    .carta {
+        width: 331px;
+        height: 274px;
+        padding: 2rem 1rem;
+        background: #fff;
+        position: relative;
+        align-items: flex-end;
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+        transition: 0.5s ease-in-out;
+        padding-bottom: 40px;
+    }
+
+    .carta .info1 {
+        position: absolute;
+        z-index: 2;
+        padding-bottom: -40px;
+        color: #fff;
+        font-size: 16px;
+        opacity: 1;
+        width: 100%;
+        transform: translateY(30px);
+        transition: 0.5s all;
+        cursor: pointer;
+        margin-left: -6px;
+    }
+
+    .carta img{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        justify-content: space-between;
+      
+        top: 0;
+        left: 0;
+    }
+
+    .carta:hover {
+        transform: translateY(0px);
+    }
+
+    .titulo {
+        font-family: "Inter";
+        font-size: 1.5rem;
+        font-weight: 900;
+        color: #403F3F;
+        text-align: center;
+        padding-left: 1px;
+    }
+
+    #bautismos {
+        background: url(/img/discipuladoMovil.png) !important;
+        width: 100%;
+        background-size: cover;
+        height: 500px;
+
+    }
+    .derecha {
+        width: 500px;
+        margin-left: -11px;
+        font-weight: 300;
+    }
+    
+    .derecha h1 {
+        font-family: "Inter";
+        font-size: 40px;
+        margin-left: 2px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        color: #fff;
+        position: relative;
+        text-align: center;
+    }
+    
+    .derecha p {
+     color: #fff;
+     margin-top: 30px;
+     font-family: "Inter";
+     font-size: 20px;
+     text-align: center;
+     font-weight: 400;
+    }
+    
+    .button {
+        text-align: center;
+        vertical-align: top;
+        padding: calc(0.925rem - 2px) 20px calc(0.725rem - 3px) 20px;
+        margin-top: 30px;
+        margin-left: 47px;
+    }
+    
+    #conteiner {
+        display: grid;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    .componente1 {
+        padding: 6vw 20vw 6vw 8vw;
+        background-image: url(/img/tile_prayer-homepage.jpg);
+        width: 100%;
+        margin-top: 0;
+        height: 400px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+    .componente2 {
+        padding: 6vw 20vw 6vw 8vw;
+        background-image: url(/img/presentacionNIños.jpg);
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        display: flex;
+        align-items: center;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+    .componente3 {
+        padding: 6vw 20vw 6vw 8vw;
+        background-image: url(/img/altares.jpg);
+        width: 100%;
+        height: 400px;
+        margin-top: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: baseline;
+    }
+    
+    .componente1 h3 {
+        color: #fff;
+        font-size: 40px;
+        width: 271px;
+        position: absolute;
+        margin-left: 40px;
+        margin-top: -148px;
+    }
+    
+    .componente1 p {
+        color: #fff;
+        width: 300px;
+        display: flex;
+        margin-left: 12px;
+        margin-top: 50px;
+        position: relative;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    
+    }
+    
+    .componente2 .dedicacion {
+        color: #fff;
+        font-size: 40px;
+        margin-top: -150px;
+        margin-left: 9px;
+        width: 100rem;
+        position: absolute;
+    }
+    
+    .componente2 .niños {
+        color: #fff;
+        font-size: 40px;
+        margin-top: -50px;
+        width: 100rem;
+        margin-left: 70px;
+        position: absolute;
+    }
+       
+    .componente2 p {
+        color: #fff;
+        width: 300px;
+        display: flex;
+        margin-left: 6px;
+        margin-top: 150px;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;;   
+    }
+    
+    .componente3 h3 {
+        color: #fff;
+        font-size: 45px;
+        margin-top: -200px;
+        margin-left: 61px;
+        width: 201px;
+        position: absolute;
+    }
+       
+    .componente3 p {
+        color: #fff;
+        width: 312px;
+        display: flex;
+        margin-left: -1px;
+        margin-top: 66px;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .componente4 h3 {
+        color: #fff;
+        font-size: 35px;
+        margin-top: -189px;
+        margin-left: 43px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 .hospitales {
+        color: #fff;
+        font-size: 32px;
+        margin-top: -127px;
+        margin-left: 49px;
+        width: 300px;
+        position: absolute;
+    }
+
+    .componente4 p {
+        color: #fff;
+        width: 322px;
+        display: flex;
+        margin-left: -1px;
+        margin-top: 84px;
+        position: absolute;
+        font-family: "Inter";
+        font-size: 20px;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    
+
+           /* Discipulado*/
+
+.discipulado-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.discipulado-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+.discipulado-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.discipulado-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: -30px;
+    padding-left: 1px;
+}
+
+
+.discipulado-container {
+    display: grid;
+    padding: 6vw 5vw 2vw 2vw;
+}
+
+.discipulado-container .discipulado-img {
+    width: 100%;
+    padding-left: 80px;
+    
+}
+.discipulado-img {
+    display: none;
+}
+
+.discipulado-text {
+    padding-left: 0px;
+    width: 360px;
+    text-align: center;
+}
+
+.discipulado-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: start;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.discipulado-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: start;
+    padding-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.discipulado-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+.discipulado2-container {
+    display: grid;
+    padding: 6vw 5vw 11vw 2vw;
+}
+
+
+.discipulado2-container .discipulado2-img {
+    width: 120%;
+    
+}
+.discipulado2-img {
+    display: none;
+}
+
+.discipulado2-text {
+    padding-left: 0px;
+    margin-top: 17px;
+    width: 365px;
+    text-align: center;
+}
+
+.discipulado2-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 51px;
+    padding-bottom: 0px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    text-align: start;
+}
+
+.discipulado2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: start;
+    width: 341px;
+}
+.discipulado2-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+.discipulado-conteiner2 {
+    overflow:hidden ;
+    width: 430px;
+}
+
+
+.discipulado-conteiner2 img{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+.discipulado-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+
+}
+
+.discipulado3-conteiner {
+    display: flex;
+    padding: 0vw 5vw 6vw 2vw;
+}
+
+.discipulado3-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    margin-top: -54px;
+    margin-bottom: 0px;
+    text-align: start;
+}
+
+.discipulado3-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.discipulado-conteiner2 {
+    margin-left: -21px;
+    overflow: hidden;
+    width: 450px;
+}
+
+
+.discipulado-conteiner2 img{
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+.discipulado-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+
+}
+
+
+        /* bautismo */
+
+        .bautismos-home {
+            position: relative;
+            width: 100%;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        
+        }
+        
+        .bautismos-home img {
+            z-index: 000;
+            position: absolute;
+            overflow: hidden;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            margin-bottom: 33px;
+        }
+        
+        .bautismos-home .content {
+            z-index: 888;
+            overflow: hidden;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            margin-top: 3px;
+            margin-left: -3px
+        }
+        
+        .bautismos-home .content h1 {
+            font-family: "Inter";
+        overflow: hidden;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: -30px;
+        padding-left: 20px;
+        }
+        
+        .bautismos-container {
+            display: grid;
+            padding: 7vw 5vw 10vw 10vw;
+            
+        }
+        
+       
+        
+  
+        .bautismos-text {
+            padding-left: 0px;
+            width: 315px;
+        }
+        
+        .bautismos-text h3 {
+            color: #403F3F;
+            font-variant-numeric: lining-nums proportional-nums;
+            font-feature-settings: 'liga' off;
+            font-family: Inter;
+            padding-top: 79px;
+            padding-bottom: 10px;
+            font-size: 50px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 54px; /* 154.286% */
+            letter-spacing: -1.5px;
+        }
+        
+        .bautismos-text p {
+            color: var(--text-gray-900, #18191F);
+            font-feature-settings: 'salt' on, 'liga' off;
+            font-family: Inter;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+
+    /* Casas de vida */ 
+
+.casaDeVida-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.casaDeVida-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+.casaDeVida-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -3px
+}
+
+.casaDeVida-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    padding-left: 20px;
+}
+
+.casa-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    
+
+}
+
+
+
+    /* CLASES */
+
+    .clases-home {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .clases-home img {
+        z-index: 000;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 121px;
+    }
+    
+    .clases-home .content {
+        z-index: 888;
+        overflow: hidden;
+        color: #fff;
+        width: 491px;
+        text-align: center;
+        margin-top: -29px;
+        margin-left: -207px
+    }
+    
+    .clases-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: -29px;
+        padding-left: 20px;
+    }
+
+    .heading {
+        font-family: "Inter";
+        font-weight: 600;
+        font-size: 40px;
+        justify-content: center;
+        margin-top: -109px;
+        padding-left: 72px;
+    }
+
+    
+
+/* contact*/
+    .contact-home {
+        position: relative;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     }
+    
+    .contact-home img {
+        z-index: 000;
+        position: absolute;
+        overflow: hidden;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        margin-bottom: 121px;
+    }
+    
+    .contact-home .content {
+        z-index: 888;
+        overflow: hidden;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        margin-left: -3px;
+    }
+    
+    .contact-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: 40px;
+        padding-left: 1px;
+    }
+ /*Casa de vida */
+    .casa-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .casa-container .casa-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .casa-img {
+        padding-top: 30px;
+        overflow: hidden;
+        width: 450px;
+        margin-left: -15px;
+    }
+    
+    .casa-text {
+        padding-left: 0px;
+        width: 310px;
+    }
+    
+    .casa-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px; /* 154.286% */
+    letter-spacing: -1.5px;
+    }
+    
+    .casa-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 128% *//
+    }
+    
+    .casa-img2 {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: -16px;
+    }
+    
+    
+    .casa2-container {
+        display: grid;
+        padding: 7vw 5vw 10vw 10vw;
+    }
+    
+    .casa2-container .casa2-img {
+        width: 100%;
+        display: none;
+        
+    }
+    .casa2-img {
+      display: none;
+    }
+    
+    .casa2-text {
+        padding-left: 0px;
+        padding-top: 20px;
+        width: 327px;
+    }
+    
+    .casa2-text h3 {
+        color: #403F3F;
+        font-variant-numeric: lining-nums proportional-nums;
+        font-feature-settings: 'liga' off;
+        font-family: Inter;
+        padding-top: 1px;
+        margin-left: -60px;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 54px;
+        letter-spacing: -1.5px;
+    }
+    
+    .casa2-text p {
+        color: var(--text-gray-900, #18191F);
+        font-feature-settings: 'salt' on, 'liga' off;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        text-align: start;
+        padding-bottom: 10px;
+        font-weight: 400;
+        line-height: 32px;
+        width: 286px;
+    }
+    
+    .casa2-img2 {
+        width: 100%;
+        display: flex;
+        margin-top: 15px;
+        margin-left: -17px;
+    }
+
+    /* presentacion*/
+
+.presentacion-home {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.presentacion-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 33px;
+}
+
+.presentacion-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -8px;
+}
+
+.presentacion-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: -30px;
+    padding-left: 20px;
+}
+
+.presentacion-home .content .p1 {
+    padding-left: 12px;
+    font-size: 30px;
+}
+
+.presentacion-home .content .n1 {
+    padding-left: 8px;
+    padding-top: 28px;
+    font-size: 30px;
+}
+
+
+.presentacion-container {
+    display: grid;
+    padding: 6vw 5vw 2vw 10vw;
+}
+
+.presentacion-container .presentacion-img {
+    width: 100%;
+    padding-left: 80px;
+    
+}
+.presentacion-img {
+    display: none;
+}
+
+.presentacion-text {
+    padding-left: 0px;
+    width: 300px;
+    text-align: start;
+}
+
+.presentacion-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.presentacion-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    padding-top: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.presentacion-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+.presentacion2-container {
+    display: grid;
+    padding: 6vw 5vw 10vw 10vw;
+}
+
+
+.presentacion2-container .presentacion2-img {
+    width: 120%;
+    
+}
+.presentacion2-img {
+    display: none;
+}
+
+.presentacion2-text {
+    padding-left: 0px;
+    margin-top: 17px;
+    width: 300px;
+    text-align: start;
+}
+
+.presentacion2-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 6px;
+    padding-left: 9px;
+    padding-bottom: 8px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.presentacion2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: 'salt' on, 'liga' off;
+    font-family: Inter;
+    font-size: 20px;
+    width: 300px;
+    padding-left: 14px;
+    padding-top: 1px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.presentacion2-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+}
+
+
+
+.presentacion-conteiner2 img{
+   width: 100%;
+   border: 0;
+   height: auto !important;
+   margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
+
+
+presentacion-conteiner2 .imagen-c {
+    padding-left: 600px;
+    padding-top: 30px;
+}
+
+/*EVANGELISMO*/
+
+.evangelismo-home {
+    position: relative;
+width: 100%;
+height: 50vh;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.evangelismo-home img {
+    z-index: 000;
+position: absolute;
+overflow: hidden;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+margin-bottom: 33px;
+}
+
+.evangelismo-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 3px;
+    margin-left: -12px;
+}
+
+.evangelismo-home .content h1 {
+    font-family: "Inter";
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: -8px;
+    padding-left: 35px;
+}
+
+.evangelismo-container {
+    display: grid;
+    padding: 7vw 5vw 10vw 4vw;
+}
+
+.evangelismo-container .evangelismo-img {
+    display: none;
+}
+.evangelismo-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: -52px; 
+}
+
+.evangelismo-text {
+    padding-left: 0px;
+    width: 360px;
+}
+
+.evangelismo-text h3 {
+    color: rgb(64, 63, 63);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: "liga" 0;
+    font-family: Inter;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+    width: 353px;
+}
+
+.evangelismo-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 2px;
+    width: 344px;
+}
+
+.evangelismo-img2 {
+    width: 345px;
+    margin-top: 20px;
+    border: 0;
+    height: auto !important;
+    max-width: 100%;
+    margin-bottom: -20px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.evangelismo2-container {
+    display: grid;
+    padding: 7vw 5vw 10vw 4vw;
+}
+
+.evangelismo2-container .evangelismo2-img {
+    width: 100%;
+    display: none;
+    
+}
+.evangelismo2-img {
+    padding-top: 30px;
+    overflow: hidden;
+    width: 450px;
+    margin-left: 29px;
+    display: flex;
+}
+
+.evangelismo2-text {
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 360px;
+}
+
+.evangelismo2-text h3 {
+    color: #403F3F;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-feature-settings: 'liga' off;
+    font-family: Inter;
+    padding-top: 47px;
+    padding-bottom: 10px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    letter-spacing: -1.5px;
+}
+
+.evangelismo2-text p {
+    color: var(--text-gray-900, #18191F);
+    font-feature-settings: "salt", "liga" 0;
+    font-family: Inter;
+    font-size: 17px;
+    padding-top: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 340px;
+}
+
+.evangelismo2-img2 {
+    display: flex;
+    width: 450px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.evangelismo-conteiner2{
+    overflow: hidden;
+}
+
+.evangelismo-conteiner2 img{
+    width: 100%;
+    border: 0;
+    height: auto !important;
+    margin: 0;
+    max-width: 100%;
+    margin-bottom: -10px;
+    overflow: hidden;
+}
+
+    
+    
+    /* about*/
+
+    .about-home {
+        overflow: hidden;
+    }
+
+    .about-home .content h1 {
+        font-family: "Inter";
+        overflow: hidden;
+        font-size: 24px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        margin-bottom: -77px;
+    }
+
+  .about-home .content {
+    z-index: 888;
+    overflow: hidden;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin-top: 31px;
+    margin-left: -3px;
+}
+
+
+.about-home {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.about-home img {
+    z-index: 000;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.about-container {
+    display: grid;
+    padding: 7vw 5vw 10vw 10vw;
+}
+
+.about-container .about-img {
+    width: 100%;
+    display: none;
+    
+}
+
+.about-container .about-img2 {
+    width: 100%;
+    display: flex;
+    margin-top: 15px;
+    margin-left: -7px;
+    
+}
+
+.about-img {
+    margin-left: -20px;
+}
+
+.linea {
+    height: 20px;
+    width: 23px;
+    margin-top: 20px;
+}
+ .about-container .Iglesia{
+    display: flex;
+    position: absolute;
+    padding-top: -10px;
+    padding-left: 32px;
+    color: #222;
+/* Body sm/tracking-widest/SemiBold */
+font-family: "Inter";
+font-size: 15px;
+font-weight: 500;
+line-height: 20px; /* 142.857% */
+letter-spacing: 1.4px;
+}
+
+
+
+.about-img {
+
+    width: 383.257px;
+    height: 374px;
+    
+}
+
+.about-container .about-text {
+    width: 100%;
+}
+
+.mision-conteiner {
+    display: grid;
+    margin-left: -20px;
+    width: 430px;
+}
+
+.mision-conteiner .mision-img {
+   display: none;
+    
+}
+.mision-conteiner .mision-img2 {
+    width: 100%;
+    display: flex;
+    margin-left: -16px;
+    margin-top: 22px;
+    
+}
+
+
+
+.mision-conteiner .mision-text {
+    width: 430px;
+    overflow: hidden;
+    margin-left: -20px;
+}
+
+
+.mision-text h1 {
+    overflow: hidden;
+    color: #EF7860;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 18px; /* 90% */
+letter-spacing: 1px;
+text-transform: uppercase;
+}
+
+.mision-text h3 {
+    color: #222;
+font-feature-settings: 'salt' on, 'liga' off;
+font-family: "Inter";
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: 54px; /* 120% */
+}
+
+.mision-text p {
+    padding-top: 16px;
+    width: 323px;
+    font-family: "Inter";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 177.778% */
+}
+
+.about-text h3 {
+    color: var(--neutral-900, #2C2C2C);
+font-variant-numeric: lining-nums proportional-nums;
+font-feature-settings: 'liga' off;
+font-family: "Inter";
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 72px; /* 120% */
+letter-spacing: -1.5px;
+}
+
+.about-text p {
+    color: #222;
+    font-feature-settings: 'liga' off;
+    font-family: "Inter";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+
+.vision-conteiner {
+    background: url(/img/greg-rosenke-UTY4N-NU6Wg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 366px;
+    height: 454px;
+}
+.vision-conteiner h1 {
+    display: flex;
+    margin-top: -53px;
+    padding-left: 69px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #222;
+    font-family: "Gotham Book";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.vision-conteiner h2 {
+    color: #222;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 20px;
+    overflow: hidden;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: -77px;
+    width: 400px;
+    height: 350px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
 }
 }
 
