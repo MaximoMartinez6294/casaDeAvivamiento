@@ -5637,7 +5637,6 @@ flex-shrink: 0;
     }
     
     .details .date {
-        float: left;
         width: 100%;
         text-align: center;
         font-weight: 300;
@@ -5647,13 +5646,12 @@ flex-shrink: 0;
     .details2 {
         position: absolute;
         width: 350px;
-        margin-left: -5px;
-        margin-top: 412px;
+        margin-left: -6px;
+        margin-top: 420px;
         padding: 1em;
     }
     
     .details2 .titulo4 {
-        float: left;
         width: 100%;
         text-align: center;
         font-weight: 600;
