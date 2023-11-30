@@ -4148,6 +4148,19 @@ flex-shrink: 0;
         margin-left: 9px;
     }
 
+    .componente1 .button:hover {
+        background-color: #5ea7ff;
+    }
+    .componente2 .button:hover {
+        background-color: #d8bec1;
+    }
+    .componente3 .button:hover {
+        background-color: #156a99;
+    }
+    .componente4 .button:hover {
+        background-color: #97abff;
+    }
+
 
     .componente2 .button {
         display: inline-block;
@@ -4275,6 +4288,46 @@ flex-shrink: 0;
     justify-content: center;
     align-items: baseline;
 }
+
+.componente1:hover {
+    transform: translateY(0px);
+}
+
+.componente1::before {
+    display: none;
+
+}
+
+
+.componente2::before {
+    display: none;
+
+}
+
+.componente2:hover::before{
+    opacity: 1;
+}
+
+
+.componente3::before {
+    display: none;
+
+}
+
+.componente3:hover::before{
+    opacity: 1;
+}
+
+
+.componente4::before {
+    display: none;
+
+}
+
+.componente4:hover::before{
+    opacity: 1;
+}
+
     
 .componente1 h3 {
     color: #fff;
