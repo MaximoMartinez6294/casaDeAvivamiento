@@ -7226,6 +7226,31 @@ margin-bottom: 33px;
     overflow: hidden;
 }
 
+.details2 {
+    position: absolute;
+    margin-left: -6px;
+    margin-top: 445px !important;
+    height: 80px !important;
+}
+
+.details2 .titulo4 {
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9em;
+    color: #515151;
+    white-space: normal;
+}
+
+.details2 .date2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-weight: 300;
+    font-size: 0.7em;
+    color: #515151;
+}
+
     
     
     /* about*/
