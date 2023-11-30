@@ -2247,15 +2247,15 @@ flex-shrink: 0;
 }
 
 .carta2 {
-    width: 343px;
+    width: 240px;
     height: 300px;
     padding: 2rem 1rem;
-    background: #fff;
+    background: rgb(255, 255, 255);
     position: relative;
     display: flex;
     align-items: flex-end;
-    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
-    transition: 0.5s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 10px;
+    transition: all 0.5s ease-in-out 0s;
     margin-left: -700px;
 }
 
@@ -2357,7 +2357,7 @@ flex-shrink: 0;
 .details2 {
     position: absolute;
     width: 350px;
-    margin-left: 83px;
+    margin-left: 110px;
     margin-top: 409px;
     padding: 1em;
 }
@@ -4005,9 +4005,9 @@ flex-shrink: 0;
     }
 
     .carta2 {
-        width: 333px;
+        width: 239px;
         height: 296px;
-        padding: 15rem 8rem;
+        padding: -6rem 8rem;
         background: #fff;
         position: relative;
         align-items: flex-end;
@@ -5761,15 +5761,16 @@ flex-shrink: 0;
     }
 
     .carta2 {
-        width: 333px;
+        width: 20px;
         height: 296px;
-        padding: 15rem 8rem 40px;
-        background: rgb(255, 255, 255);
+        padding: 18rem 8rem;
+        background: #fff;
         position: relative;
         align-items: flex-end;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 10px;
-        transition: all 0.5s ease-in-out 0s;
-        margin-left: 5px;
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+        transition: 0.5s ease-in-out;
+        padding-bottom: 40px;
+        margin-left: 20px;
         margin-top: 60px;
     }
     
@@ -7473,15 +7474,16 @@ flex-shrink: 0;
     }
 
     .carta2 {
-        width: 333px;
+        width: 239px;
         height: 296px;
-        padding: 15rem 8rem 40px;
-        background: rgb(255, 255, 255);
+        padding: -6rem 8rem;
+        background: #fff;
         position: relative;
         align-items: flex-end;
-        box-shadow: rgba(0, 0, 0, 0.5) 0px 7px 10px;
-        transition: all 0.5s ease-in-out 0s;
-        margin-left: 5px;
+        box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+        transition: 0.5s ease-in-out;
+        padding-bottom: 40px;
+        margin-left: 20px;
         margin-top: 60px;
     }
     
@@ -7580,7 +7582,7 @@ flex-shrink: 0;
     .details2 {
         position: absolute;
         margin-left: -6px;
-        margin-top: 422px !important; 
+        margin-top: 445px !important;
         height: 80px !important;
     }
     
