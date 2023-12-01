@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="shortcut icon" href="/img/iconavi.png" type="image/x-icon">
     <link rel="icon" href="/img/iconavi.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,58 +20,81 @@
 </head>
 <body>
     <!-- Nav -->
-<header class="about-header">
-    <img onclick="location.href='index.html';"  class="about-logo" src="/img/Gray_Minimal_The_Dog_Free_Logo__2_-removebg-preview.png" alt="">
-    <div class="menu-btn"></div>
-        <div class="nav animate__animated animate__fadeInLeft">
-            <ul class="menu__links2">
-                <li class="menu__item">
-                    <a  href="index.html" class="menu__link" >INICIO</a>
-                </li>
+    <div class="background-header">
 
-                <li class="menu__item">
-                    <a href="sobreNos.html" class="menu__link">SOBRE NOSOTROS</a>
-                </li>
+        <header class="header">
+            <nav class="nav container2">
+            <div class="nav__data">
+                <img onclick="location.href='index.html';" class="logo animate__animated animate__fadeInLeft" src="/img/Gray_Minimal_The_Dog_Free_Logo__2_-removebg-preview.png" alt="">
+                <div class="menu-btn"></div>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
 
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">INICIO</a></li>
 
+                    <li><a href="sobreNos.html" class="nav__link">NOSOTROS</a></li>
 
-                <li class="menu__item menu__item--show">
-                    <a class="menu__link">ACTIVIDADES <img src="assets/arrow (1).svg" class="menu__arrow"></a>
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                        ACTIVIDADES <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
 
-                    <ul class="menu__nesting">
-                        <li class="menu__inside">
-                            <a href="casaDeVida.html" class="menu__link menu__link--inside">CASAS DE VIDA</a>
+                        <ul class="dropdown__menu" >
+                        <li>
+                            <a href="casaDeVida.html" class="dropdown__link">
+                                CASAS DE VIDA
+                            </a>                          
                         </li>
-                        <li class="menu__inside">
-                            <a href="bautismos.html" class="menu__link menu__link--inside">BAUTISMOS</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="altares.html" class="menu__link menu__link--inside">ALTARES</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a href="discipulado.html" class="menu__link menu__link--inside">DISCIPULADO</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a  href="presentacion.html" class="menu__link menu__link--inside">PRESENTACIÓN DE NIÑOS</a>
-                        </li>
-                        <li class="menu__inside">
-                            <a  href="evangelismo.html" class="menu__link menu__link--inside">EVANGELISMO EN HOSPITALES</a>
-                        </li>
-                    </ul>
-                </li>
 
-                <li class="menu__item">
-                    <a href="clases.html" class="menu__link">CLASES</a>
-                </li>
+                        <li>
+                            <a href="bautismos.html" class="dropdown__link">
+                                BAUTISMOS
+                            </a>
+                        </li>
+                        <li>
+                                <a href="altares.html" class="dropdown__link">
+                                    ALTARES
+                                </a>
+                        </li>
 
-                <li class="menu__item">
-                    <a href="contacto.html" class="menu__link">CONTACTO</a>
-                </li>
+                        <li>
+                                <a href="discipulado.html" class="dropdown__link">
+                                    DISCIPULADO
+                                </a>
+                        </li>
+                        <li>
+                                <a href="presentacion.html" class="dropdown__link">
+                                    PRESENTACIÓN DE NIÑOS
+                                </a>
+                        </li>
+                        <li>
+                                <a href="evangelismo.html" class="dropdown__link">
+                                    EVANGELISMO EN HOSPITALES
+                                </a>
+                        </li>
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        
+                        </ul>
+                    </li>
+                    
+                    <li><a href="clases.html" class="nav__link">CLASES</a></li>
 
-            </ul>
-        </div>
-    </div>
-</header>
+                    <!--=============== DROPDOWN 2 ===============-->
+                    
+
+                    <li><a href="contacto.html" class="nav__link">CONTACTO</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+    </div>    
  <!-- Home -->
 <section class="altares-home">
     <img src="/img/altares.jpg" alt="background">
@@ -199,8 +223,21 @@
         </div>
     </div>    
  </footer>
- <script src="app.js"> 
-    
-    </script>
+ <script>
+    const showMenu = (toggleId, navId) =>{
+   const toggle = document.getElementById(toggleId),
+         nav = document.getElementById(navId)
+
+   toggle.addEventListener('click', () =>{
+       // Add show-menu class to nav menu
+       nav.classList.toggle('show-menu')
+
+       // Add show-icon to show and hide the menu icon
+       toggle.classList.toggle('show-icon')
+   })
+}
+
+showMenu('nav-toggle','nav-menu')
+</script>
 </body> 
 </html>
