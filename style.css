@@ -29,6 +29,8 @@ body{
     text-decoration: none;
   }
 
+  
+
   :root {
     --header-height: 3.5rem;
   
@@ -220,7 +222,7 @@ body{
   
   .dropdown__link:hover, 
   .dropdown__sublink:hover {
-    background-color: var(--black-color);
+    background-color: #d86c31;
   }
   
   .dropdown__menu, 
@@ -585,7 +587,7 @@ section {
 .contact-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -605,10 +607,10 @@ section {
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    padding: 0px 0px 80px;
+    margin-top: 10px;
     overflow-y: hidden;
     margin-left: 250px;
-    
 }
 
 .contact-home .content h1 {
@@ -799,7 +801,7 @@ i.fa-brands.fa-instagram{
 .clases-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -819,7 +821,8 @@ i.fa-brands.fa-instagram{
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    padding: 0px 0px 80px;
+    margin-top: 10px;
     overflow-y: hidden;
     padding-left: 280px;
 }
@@ -900,7 +903,7 @@ i.fa-brands.fa-instagram{
 .presentacion-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -919,8 +922,9 @@ i.fa-brands.fa-instagram{
 .presentacion-home .content {
     z-index: 888;
     color: #fff;
+    padding: 0px 0px 200px;
     width: 100%;
-    margin-top: 73px;
+    margin-top: 50px;
     overflow-y: hidden;
     margin-left: 323px;
 }
@@ -930,7 +934,7 @@ i.fa-brands.fa-instagram{
     font-size: 60px;
     font-weight: 900;
     letter-spacing: 3px;
-    margin-bottom: 40px;
+    margin-bottom: 2px;
     padding-left: 100px;
 }
 
@@ -1073,7 +1077,7 @@ presentacion-conteiner2 .imagen-c {
 .discipulado-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1091,9 +1095,10 @@ presentacion-conteiner2 .imagen-c {
 
 .discipulado-home .content {
     z-index: 888;
-    color: #fff;
+    color: rgb(255, 255, 255);
     width: 100%;
-    margin-top: 80px;
+    padding: 0px 0px 90px;
+    margin-top: 25px;
     overflow-y: hidden;
     margin-left: 240px;
 }
@@ -1244,7 +1249,7 @@ margin-bottom: 20px;
 .altares-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1264,9 +1269,10 @@ margin-bottom: 20px;
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 15px;
+    padding: 0px 0px 90px;
     overflow-y: hidden;
-    margin-left: 240px;
+    margin-left: 410px;
 }
 
 .altares-home .content h1 {
@@ -1403,41 +1409,6 @@ letter-spacing: -1.5px;
 
 /* Casas de vida */ 
 
-.casaDeVida-home {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.casaDeVida-home img {
-    z-index: 000;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.casaDeVida-home .content {
-    z-index: 888;
-    color: #fff;
-    width: 100%;
-    margin-top: 80px;
-    overflow-y: hidden;
-    margin-left: 240px;
-}
-
-.casaDeVida-home .content h1 {
-    font-family: "Inter";
-    font-size: 5rem;
-    font-weight: 900;
-    letter-spacing: 3px;
-    margin-bottom: 40px;
-}
 
 .casa-container {
     display: flex;
@@ -1559,7 +1530,7 @@ letter-spacing: -1.5px;
 .evangelismo-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1579,7 +1550,8 @@ letter-spacing: -1.5px;
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    padding: 0px 0px 170px;
+    margin-top: 40px;
     overflow-y: hidden;
     text-align: center;
 }
@@ -1713,7 +1685,7 @@ letter-spacing: -1.5px;
 .bautismos-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1733,7 +1705,8 @@ letter-spacing: -1.5px;
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 20px;
+    padding: 0px 0px 90px;
     overflow-y: hidden;
     margin-left: 355px;
 }
@@ -1843,14 +1816,6 @@ letter-spacing: -1.5px;
 
 /*clases*/
 
-.clases-home .content {
-    z-index: 888;
-    color: #fff;
-    width: 100%;
-    margin-top: 80px;
-    overflow-y: hidden;
-    padding-left: 280px;
-}
 
 .clases {
     overflow: hidden;
@@ -1929,7 +1894,7 @@ letter-spacing: -1.5px;
 .casaDeVida-home {
     position: relative;
     width: 100%;
-    height: 60vh;
+    height: 20vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -1949,7 +1914,8 @@ letter-spacing: -1.5px;
     z-index: 888;
     color: #fff;
     width: 100%;
-    margin-top: 80px;
+    margin-top: -42px;
+    padding: 30px 10px 90px;
     overflow-y: hidden;
     margin-left: 240px;
 }
@@ -2076,14 +2042,6 @@ letter-spacing: -1.5px;
 }
 
 /* Altares */
-.altares-home {
-    position: relative;
-    width: 100%;
-    height: 60vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
 
 .altares-home img {
     z-index: 000;
@@ -2095,14 +2053,6 @@ letter-spacing: -1.5px;
     object-fit: cover;
 }
 
-.altares-home .content {
-    z-index: 888;
-    color: #fff;
-    width: 100%;
-    margin-top: 80px;
-    overflow-y: hidden;
-    margin-left: 410px;
-}
 
 .altares-home .content h1 {
     font-family: "Inter";
@@ -5130,8 +5080,8 @@ presentacion-conteiner2 .imagen-c {
 }
 
 .discipulado-conteiner2 {
-    overflow:hidden ;
-    width: 430px;
+    overflow: hidden;
+    width: 442px;
 }
 
 
@@ -6697,8 +6647,8 @@ flex-shrink: 0;
 }
 
 .discipulado-conteiner2 {
-    overflow: hidden;
-    width: 436px;
+    overflow:hidden ;
+    width: 430px;
 }
 
 
