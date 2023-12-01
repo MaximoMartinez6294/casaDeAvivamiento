@@ -115,8 +115,9 @@ body{
   .nav__toggle {
     position: relative;
     width: 32px;
+    margin-top: 25px;
     height: 32px;
-  }
+}
   
   .nav__burger, 
   .nav__close {
