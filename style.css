@@ -198,7 +198,6 @@ body{
     font-size: 1.25rem;
     font-weight: initial;
     transition: transform .4s;
-    margin-right: 25px;
   }
   
   .dropdown__link, .dropdown__sublink {
@@ -6543,14 +6542,16 @@ flex-shrink: 0;
 
            /* Discipulado*/
 
-.discipulado-home {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+           .discipulado-home {
+            position: relative;
+            width: 100%;
+            height: 20vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
 
 .discipulado-home img {
     z-index: 000;
@@ -6565,14 +6566,14 @@ flex-shrink: 0;
 
 .discipulado-home .content {
     z-index: 888;
-    overflow: hidden;
     color: #fff;
     width: 100%;
     text-align: center;
-    margin-top: 3px;
+    padding: 0px 0px 40px;
+    overflow: hidden;
+    margin-top: -22px;
     margin-left: -8px;
 }
-
 .discipulado-home .content h1 {
     font-family: "Inter";
     overflow: hidden;
@@ -6914,7 +6915,7 @@ flex-shrink: 0;
     .clases-home {
         position: relative;
         width: 100%;
-        height: 60vh;
+        height: 20vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -6931,14 +6932,15 @@ flex-shrink: 0;
         margin-bottom: 121px;
     }
     
+    
     .clases-home .content {
         z-index: 888;
         overflow: hidden;
         color: #fff;
-        width: 491px;
+        width: 500px;
         text-align: center;
-        margin-top: -29px;
-        margin-left: -207px
+        margin-top: -82px;
+        margin-left: -208px;
     }
     
     .clases-home .content h1 {
@@ -6954,23 +6956,23 @@ flex-shrink: 0;
     .heading {
         font-family: "Inter";
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         justify-content: center;
         margin-top: -109px;
-        padding-left: 72px;
+        padding-left: 11px;
     }
 
     
 
 /* contact*/
-    .contact-home {
-        position: relative;
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-     }
+.contact-home {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
     
     .contact-home img {
         z-index: 000;
@@ -6989,7 +6991,7 @@ flex-shrink: 0;
         color: #fff;
         width: 100%;
         text-align: center;
-        margin-top: 80px;
+        margin-top: -73px;
         margin-left: -3px;
     }
     
@@ -7114,14 +7116,15 @@ flex-shrink: 0;
 
     /* presentacion*/
 
-.presentacion-home {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .presentacion-home {
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
 .presentacion-home img {
     z-index: 000;
@@ -7139,8 +7142,9 @@ flex-shrink: 0;
     overflow: hidden;
     color: #fff;
     width: 100%;
+    padding: 0px 0px 80px;
     text-align: center;
-    margin-top: 3px;
+    margin-top: -49px;
     margin-left: -8px;
 }
 
@@ -7299,11 +7303,12 @@ presentacion-conteiner2 .imagen-c {
 
 .evangelismo-home {
     position: relative;
-width: 100%;
-height: 50vh;
-display: flex;
-justify-content: center;
-flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .evangelismo-home img {
@@ -7322,9 +7327,10 @@ margin-bottom: 33px;
     overflow: hidden;
     color: #fff;
     width: 100%;
+    padding: 0px 0px 70px;
     text-align: center;
-    margin-top: 3px;
-    margin-left: -12px;
+    margin-top: -15px;
+    margin-left: -3px;
 }
 
 .evangelismo-home .content h1 {
@@ -8270,14 +8276,15 @@ flex-shrink: 0;
 
            /* Discipulado*/
 
-.discipulado-home {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+           .discipulado-home {
+            position: relative;
+            width: 100%;
+            height: 20vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
 
 .discipulado-home img {
     z-index: 000;
@@ -8292,11 +8299,12 @@ flex-shrink: 0;
 
 .discipulado-home .content {
     z-index: 888;
-    overflow: hidden;
     color: #fff;
     width: 100%;
     text-align: center;
-    margin-top: 3px;
+    padding: 0px 0px 40px;
+    overflow: hidden;
+    margin-top: -22px;
     margin-left: -8px;
 }
 
@@ -8642,7 +8650,7 @@ flex-shrink: 0;
     .clases-home {
         position: relative;
         width: 100%;
-        height: 60vh;
+        height: 20vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -8682,23 +8690,23 @@ flex-shrink: 0;
     .heading {
         font-family: "Inter";
         font-weight: 600;
-        font-size: 40px;
+        font-size: 30px;
         justify-content: center;
         margin-top: -109px;
-        padding-left: 72px;
+        padding-left: 11px;
     }
 
     
 
 /* contact*/
-    .contact-home {
-        position: relative;
-        width: 100%;
-        height: 60vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-     }
+.contact-home {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
     
     .contact-home img {
         z-index: 000;
@@ -8717,7 +8725,7 @@ flex-shrink: 0;
         color: #fff;
         width: 100%;
         text-align: center;
-        margin-top: 80px;
+        margin-top: -73px;
         margin-left: -3px;
     }
     
@@ -8843,14 +8851,15 @@ flex-shrink: 0;
 
     /* presentacion*/
 
-.presentacion-home {
-    position: relative;
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .presentacion-home {
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
 .presentacion-home img {
     z-index: 000;
@@ -8868,8 +8877,9 @@ flex-shrink: 0;
     overflow: hidden;
     color: #fff;
     width: 100%;
+    padding: 0px 0px 80px;
     text-align: center;
-    margin-top: 3px;
+    margin-top: -49px;
     margin-left: -8px;
 }
 
@@ -9028,11 +9038,12 @@ presentacion-conteiner2 .imagen-c {
 
 .evangelismo-home {
     position: relative;
-width: 100%;
-height: 50vh;
-display: flex;
-justify-content: center;
-flex-direction: column;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .evangelismo-home img {
@@ -9051,9 +9062,10 @@ margin-bottom: 33px;
     overflow: hidden;
     color: #fff;
     width: 100%;
+    padding: 0px 0px 70px;
     text-align: center;
-    margin-top: 3px;
-    margin-left: -12px;
+    margin-top: -15px;
+    margin-left: -3px;
 }
 
 .evangelismo-home .content h1 {
