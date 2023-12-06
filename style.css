@@ -990,7 +990,8 @@ i.fa-brands.fa-instagram{
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; /* 128% */
+    text-align: justify;
 }
 
 .presentacion-img2 {
@@ -1147,7 +1148,8 @@ margin-bottom: 20px;
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; /* 128% */
+    text-align: justify;
 }
 
 .discipulado2-container {
@@ -1185,7 +1187,8 @@ margin-bottom: 20px;
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; /* 128% */
+    text-align: justify;
 }
 
 
@@ -1327,7 +1330,8 @@ letter-spacing: -1.5px;
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; 
+    text-align: justify;
 }
 
 .altares-img2 {
@@ -1453,7 +1457,8 @@ letter-spacing: -1.5px;
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px;
+    text-align: justify;
 }
 
 .casa-img2 {
@@ -1607,6 +1612,7 @@ letter-spacing: -1.5px;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .evangelismo-img2 {
@@ -1754,7 +1760,8 @@ margin-bottom: 20px;
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; 
+    text-align: justify;
 }
 
 
@@ -1963,16 +1970,6 @@ line-height: 54px; /* 154.286% */
 letter-spacing: -1.5px;
 }
 
-.casa-text p {
-    color: var(--text-gray-900, #18191F);
-    font-feature-settings: 'salt' on, 'liga' off;
-    font-family: Inter;
-    font-size: 20px;
-    padding-top: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 128% *//
-}
 
 .casa-img2 {
  display: none;
@@ -4724,6 +4721,7 @@ flex-shrink: 0;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
+        text-align: justify;
     }
     
 
@@ -4840,6 +4838,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .presentacion-img2 {
@@ -5015,6 +5014,7 @@ presentacion-conteiner2 .imagen-c {
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .discipulado-img2 {
@@ -5071,6 +5071,7 @@ presentacion-conteiner2 .imagen-c {
     font-weight: 400;
     line-height: 32px;
     text-align: start;
+    text-align: justify;
 }
 .discipulado2-img2 {
     width: 100%;
@@ -5222,7 +5223,8 @@ presentacion-conteiner2 .imagen-c {
     padding-top: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px; /* 128% *//
+    line-height: 32px; 
+    text-align: justify;
 }
 
 .altares-img2 {
@@ -5478,6 +5480,7 @@ letter-spacing: -1.5px;
         font-style: normal;
         font-weight: 400;
         line-height: 32px;
+        text-align: justify;
     }
     
     .evangelismo-img2 {
@@ -5655,7 +5658,8 @@ letter-spacing: -1.5px;
         font-size: 25px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px; /* 128% *//
+        line-height: 32px; 
+        text-align: justify;
     }
     
     .casa-img2 {
@@ -6582,6 +6586,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .discipulado-img2 {
@@ -6638,6 +6643,7 @@ flex-shrink: 0;
     font-weight: 400;
     line-height: 32px;
     text-align: start;
+    text-align: justify;
 }
 .discipulado2-img2 {
     width: 100%;
@@ -6801,6 +6807,7 @@ flex-shrink: 0;
             font-size: 25px;
             font-style: normal;
             font-weight: 400;
+            text-align: justify;
         }
 
 
@@ -6855,7 +6862,7 @@ flex-shrink: 0;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
-    
+    text-align: justify;
 
 }
 
@@ -6999,7 +7006,8 @@ flex-shrink: 0;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px; /* 128% *//
+        line-height: 32px; /* 128% */
+        text-align: justify;
     }
     
     .casa-img2 {
@@ -7166,6 +7174,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .presentacion-img2 {
@@ -7338,6 +7347,7 @@ margin-bottom: 33px;
     font-weight: 400;
     line-height: 32px;
     width: 352px;
+    text-align: justify;
 }
 
 .evangelismo-img2 {
@@ -8316,6 +8326,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .discipulado-img2 {
@@ -8372,6 +8383,7 @@ flex-shrink: 0;
     font-weight: 400;
     line-height: 32px;
     text-align: start;
+    text-align: justify;
     width: 341px;
 }
 .discipulado2-img2 {
@@ -8536,6 +8548,7 @@ flex-shrink: 0;
             font-size: 25px;
             font-style: normal;
             font-weight: 400;
+            text-align: justify;
         }
 
 
@@ -8590,6 +8603,7 @@ flex-shrink: 0;
     font-size: 25px;
     font-style: normal;
     font-weight: 400;
+    text-align: justify;
     
 
 }
@@ -8733,7 +8747,8 @@ flex-shrink: 0;
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px; /* 128% *//
+        line-height: 32px; /* 128% */
+        text-align: justify;
     }
     
     .casa-img2 {
@@ -8901,6 +8916,7 @@ flex-shrink: 0;
     font-style: normal;
     font-weight: 400;
     line-height: 32px;
+    text-align: justify;
 }
 
 .presentacion-img2 {
@@ -9074,6 +9090,7 @@ margin-bottom: 33px;
     line-height: 32px;
     margin-top: 2px;
     width: 344px;
+    text-align: justify;
 }
 
 .evangelismo-img2 {
